@@ -1,4 +1,9 @@
-﻿.ag {
+body {
+	margin: 100px 200px;
+  }
+
+
+.ag {
 	text-transform: uppercase;
 	font-size: 1.5em;
  }
@@ -11,6 +16,7 @@
 	text-decoration-line: none;
 	color: lightblue;
    }
+
 
 .container {
 	position: relative;
@@ -69,7 +75,7 @@
  }
 
 #container > img {
-	margin-left: 85px;
+	margin-left: 115px;
 	line-height: 1px;
   }
 
@@ -92,7 +98,7 @@
   }
 
 #container1 > img {
-	margin-left: 80px;
+	margin-left: 110px;
 	line-height: 1px;
   }
 
@@ -114,7 +120,7 @@
   }
 
 #container2 > img {
-	margin-left: 80px;
+	margin-left: 110px;
 	line-height: 1px;
   }
 
@@ -137,7 +143,7 @@
   }
 
 #container3 > img {
-	margin-left: 80px;
+	margin-left: 110px;
 	line-height: 1px;
    }
 
@@ -159,7 +165,7 @@
   }
 
 #container4 > img {
-	margin-left: 80px;
+	margin-left: 110px;
 	line-height: 1px;
    }
 
@@ -181,7 +187,7 @@
   }
 
 #container5 > img {
-	margin-left: 80px;
+	margin-left: 110px;
 	line-height: 1px;
   }
 
