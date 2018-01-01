@@ -1,0 +1,81 @@
+h2 {
+	text-align: center;
+	text-shadow: 4px 4px 4px red;
+	color: green;
+	font-size: 2.5em;
+	line-height: 1px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 20px;
+}
+	
+#signup {
+	border: 2px grey;
+	padding: 15px;
+	max-width: 400px;
+	float: right;
+	color: white;
+}
+
+.signup {
+	text-align: center;
+	text-indent: 3px;
+	border: 1px dotted pink;
+	padding: 5px;
+	color: white;
+}
+
+#sub {
+		margin-left: 150px;
+}
+
+figure {
+		float: left;
+		opacity: 0.4;
+}
+
+#backgrnd {
+	background-color: black;
+	border: 1px solid black;
+	height: 375px;
+	opacity: 0.6;
+	margin: auto;
+}
+
+figcaption {
+	background-color: yellow;
+	height: 250px;
+	opacity: 0.4;
+}
+
+#ihov:hover {
+		opacity: 0.9;
+}
+
+#left {
+		background-color: skyblue;
+	border: 1px solid skyblue;
+	height: 375px;
+}
+
+#signup2 {
+	float: left;
+	padding: 50px;
+}
+
+
+#fig2 {
+		float: right;
+		opacity: 1;
+		padding: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: darkred;
+}
+
+footer {
+	text-align: center;
+	background-color: chocolate;
+}
