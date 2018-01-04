@@ -1,0 +1,667 @@
+<!doctype html>
+<head>
+  <title> my Resume </title>
+  <link rel="icon" href="Dhaval's-Logo.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+
+.h1 {
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 4px 4px 4px red;
+	color: green;
+	text-decoration: underline;
+	font-size: 3.1em;
+	margin-top: .5px;
+ }
+
+#pic {
+	margin-top: -15px;
+	border: 1px solid white;
+	height: 635px;
+	width: 250px;
+	float: left;
+  }
+
+#img {
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+  }
+
+#s {
+	margin-left: 35px;
+	color: black;
+	font-weight: bolder;
+	font-size: 2em;
+  }
+
+.s {
+	color: red;
+	font-size: 14px;
+  }
+
+#add {
+	border: 1px solid;
+	color: black;
+  }
+
+.add {
+	margin-left: 50%;
+	color: black;
+  }
+
+#num {
+	line-height: 2em;
+	color: black;
+	border: 1px solid;
+  }
+
+#num1 {
+	margin-left: 50px;
+	color: black;
+  }
+
+.num {
+	color: black;
+	line-height: 2em;
+	border: 1px solid;
+ }
+
+.num1 {
+	color: black;
+	margin-left: 50px;
+  }
+
+.num1:hover {
+	cursor: pointer;
+	background-color: black;
+  }
+
+#soc {
+	color: black;
+	line-height: 2em;
+	border: 1px solid black;
+	margin-left: 2px;
+  }
+
+
+.soc {
+	color: black;
+	margin-left: 50px;
+  }
+
+.soc a {
+	text-decoration: none;
+	color: black;
+  }
+
+.soc a:hover {
+	background-color: transparent;
+   }
+
+.container {
+  width: 25%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: center;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 50%; background-color: #2196F3;}
+
+
+h2 {
+	text-align: center;
+	color: red;
+ }
+
+#sum {
+	border: 1px solid;
+	margin-left: 100px;
+	background-color: lightyellow;
+  }
+
+h3 {
+	margin-left: 550px;
+	width: 500px;
+	border: 1px solid;
+	text-align: center;
+	color: red;
+	font-size: 25px;
+ }
+#art {
+	border: 1px solid white;
+  }
+
+#exp {
+	margin-left: 300px;
+	color: maroon;
+  }
+
+#exp1 {
+	margin-left: 500px;
+  }
+
+.exp1 {
+	margin-left: 618px;
+  }
+
+h4 {
+	margin-left: 550px;
+	width: 500px;
+	border: 1px solid white;
+	text-align: center;
+	color: green;
+	font-size: 25px;
+  }
+
+#cour {
+	margin-left: 300px;
+	color: grey;
+  }
+
+#cour1 {
+	margin-left: 365px;
+  }
+
+.cour1 {
+	margin-left: 490px;
+  }
+
+#cour2 {
+	margin-left: 490px;
+  }
+
+.cour2 {
+	margin-left: 490px;
+  }
+
+#cour3 {
+	margin-left: 490px;
+  }
+
+#edu {
+	border: 1px solid white;
+  }
+
+#edu1 {
+	margin-left: 300px;
+	color: purple;
+  }
+
+#edu2 {
+	margin-left: 317px;
+  }
+
+.edu2 {
+	margin-left: 490px;
+  }
+
+#edu3 {
+	margin-left: 490px;
+  }
+
+.edu3 {
+	margin-left: 490px;
+  }
+
+#edu4 {
+	margin-left: 300px;
+	color: blue;
+  }
+
+#edu5 {
+	margin-left: 325px;
+  }
+
+.edu5 {
+	margin-left: 500px;
+  }
+
+#edu6 {
+	margin-left: 500px;
+  }
+
+.edu6 {
+	margin-left: 500px;
+  }
+
+h5 {
+	text-align: center;
+	color: red;
+	border: 1px solid;
+	width: 500px;
+	margin-left: 500px;
+	font-size: 25px;
+ }
+
+#per {
+	border: 1px solid; }
+
+
+h6 {
+	text-align: center;
+	color: green;
+	border: 1px solid;
+	width: 500px;
+	margin-left: 500px;
+	font-size: 25px;
+ }
+
+
+.foot, a {
+	text-align: center;
+	text-decoration-line: none;
+  }
+
+.foot a:hover {
+	cursor: pointer;
+	color: red;
+   }
+
+
+#foot {
+	color: purple;
+  }
+
+@media only screen and (max-width: 300px) {
+	#pic {width: 75px;
+		  position: relative;
+		  opacity: 0.2;
+		  z-index: 1;
+		  margin-left: 15px;
+	}
+
+	#img {width: 75px;
+		  position: relative;
+		  opacity: 0.2;
+		  z-index: 1;
+		  margin-left: 15px;
+	}
+
+	#s {
+		width: 60px;
+		position: relative;
+	}
+
+}
+
+@media only screen and (max-width: 528px) {
+	#pic {width: 100px;
+		  opacity: 0.8;
+		}
+
+	#img {width: 100px;
+		  opacity: 0.9;
+		  border: 1px;
+	}
+
+	#s {
+		width: 50px;
+		padding: 0px;
+		margin-left: -125px;
+	}
+
+	.s {
+		width: 50px;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	#add {
+		width: 40px;
+		padding: 0px;
+	}
+
+	.add {
+		width: 40px;
+	}
+
+
+	#num {
+		width: 60px;
+		padding: 0px;
+	}
+
+	#num1 {
+		width: 50px;
+		padding: 0px;
+	}
+
+
+	.num {
+		width: 50px;
+		padding: 0px;
+	}
+
+	.num1 {
+		width: 50px;
+		padding: 0px;
+	}
+
+	#soc {
+		width: 50px;
+		padding: 0px;
+	}
+
+	.soc {
+		width: 50px;
+		padding: 0px;
+	}
+
+	#sum {
+		overflow: scroll;
+		display: block;
+		margin-left: -10px;
+		padding: 0px;
+	}
+
+	h3 {
+		width: 120px;
+		display: block;
+		border-collapse: collapse;
+		border: none;
+		margin-left: 300px;
+		position: absolute;
+		line-height: 0.1px;
+	}
+
+	#art {
+		display: block;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		width: 100px;
+		position: relative;
+	}
+
+	#exp1 {
+		width: 100px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		display: inline-block;
+		white-space: pre;
+		line-height: 1px;
+	}
+
+	.exp1 {
+		width: 100px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		white-space: pre;
+	}
+
+	h4 {
+		border-collapse: collapse;
+		display: block;
+		width: 100px;
+		border: none;
+		margin-left: 300px;
+		position: relative;
+		line-height: 0.1px;
+	}
+
+	#cour1 {
+		width: 100px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		white-space: pre;
+		display: inline-block;
+	}
+
+	.cour1 {
+		width: 100px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		white-space: pre;
+		line-height: 1px;
+	}
+
+	#cour2 {
+		width: 100px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		display: inline-block;
+		white-space: pre;
+	}
+
+	.cour2 {
+		width: 90px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		display: inline-block;
+		white-space: pre;
+	}
+
+	#cour3 {
+		width: 100px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		display: inline-block;
+		white-space: pre;
+	}
+
+	#edu2 {
+		width: 100px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		display: inline-block;
+		white-space: pre-wrap;
+	}
+
+	.edu2 {
+		width: 125px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		display: inline-block;
+	}
+
+
+	#edu3 {
+		width: 100px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		display: inline-block;
+		white-space: pre;
+	}
+
+	.edu3 {
+		width: 75px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		display: inline-block;
+		white-space: pre;
+	}
+
+	#edu5 {
+		width: 25px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		display: block;
+		white-space: pre;
+	}
+
+	.edu5 {
+		width: 125px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		display: inline-block;
+		white-space: pre;
+	}
+
+	#edu6 {
+		width: 75px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		display: block;
+		margin-top: 0.1px;
+	}
+
+	.edu6 {
+		width: 50px;
+		margin-left: 0.1px;
+		padding-left: 0.1px;
+		display: block;
+	}
+
+	h5 {
+		border-collapse: collapse;
+		display: inline;
+		width: 90px;
+		border: none;
+		margin-left: 225px;
+		position: relative;
+	}
+
+	.container {
+		width: 150px;
+		border-collapse: collapse;
+		border: none;
+	}
+
+	h6 {
+		width: 100px;
+		border-collapse: collapse;
+		display: inline-flex;
+		border: none;
+		margin-left: 200px;
+		position: relative;
+	}
+
+	img {
+		width: 350px;
+		height: 250px;
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+	#pic {width: 125px;
+		  position: relative;
+	}
+
+	#img {width: 125px;
+		  position: relative;
+	}
+
+	#s {width: 135px;
+		position: relative;
+	}
+}
+
+@media only screen and (max-width: 786px) {
+	#pic {width: 150px;
+		  position: relative;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	#pic {width: 250px;
+		  position: relative;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	#pic {width: 250px;
+		  position: relative;
+	}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<h1 class="h1"> Resume </h1>
+
+
+<p id="pic"><img id="img" src="20170602_190237.jpg"; height="250px"; width="250px"; alt="";>
+   <span id="s"> Dhaval Vira </span><br/>
+   <span class="s"> Software Engineer / Software Developer </span>
+   <br/><br/><span id="add"> <i class="material-icons" style="font-size:15px">place</i> Address : <br/> </span><span class="add"> <br/> Bunglow # 2/146 (18), Shree Vidhyachandra Vijay Nagar, Dhuri Wadi, Nr. Bank of Baroda, Village Koday, Tehsil Mandvi, Kutch - 370460, Gujarat, India
+</span>
+   <span id="num"><br/> &#x260F; | <i class="fa fa-whatsapp"></i> Cell Phone : <br/></span> <span id="num1">+91 8469 637 498 </span>
+   <br/><span class="num"> &#9993; E-mail : <br/> </span> <span class="num1"> dhavalveera@gmail.com </span>
+   <span id="soc"><br/> <i class="fa fa-linkedin-square"></i> LinkedIn : <br/></span> <span class="soc"> <a href="http://www.linkedin.com/in/dhaval-vira/" target="_blank"> Dhaval Vira </a> </span>
+
+
+ </p>
+
+<h2> Summary </h2>
+<span id="sum"> I am <b>Fresher</b>. Created few own Front-End Website on my-self.. Currently I'm Learning Front-End Developing, Back-End Developing & Database from Coursera. </span>
+<br/>
+
+<h3> Experience </h3><br/>
+<article id="art"> 
+ <p id="exp">
+ 08-2017 to Present 		<span id="exp1"><b> Owner </b></span>
+				<br/><span class="exp1">Self Employed</span>
+</p>
+</article>
+
+<h4> Education </h4>
+<article id="edu">
+   <p id="cour">
+    09-2007 to Present			<span id="cour1"><b> Coursera </b></span><br/>
+					<span class="cour1"> Software Engineering </span> 
+					<span id="cour2"> Front-End :- HTML & CSS </span><br/>
+					<span class="cour2"> Back-End :- PHP, Java & Android </span><br/>
+					<span id="cour3"> Database :- MySQL </span> 
+<hr/>
+
+  <p id="edu1">
+  10-08-2011 to 25-05-2012		<span id="edu2"><b>NMF College of Comm. & Sci.<b/></span>
+					<span class="edu2"> FYJC (12th) in General Science.<br/></span>
+					<span id="edu3"> Marks : 250/600<br/> </span>
+					<span class="edu3"> 41.64%<br/></span>
+<hr/>
+
+  <p id="edu4">
+   16-06-2000 to 25-05-2011		<span id="edu5"><b>Sheth N L High School<b/></span>
+					<span class="edu5"> SSC (10th) in General Studies.<br/>
+					<span id="edu6"> Marks : 323/500<br/></span>
+					<span class="edu6"> 64.60% <br/></span>
+</article>
+
+<hr/>
+<br/>
+<h5>My Skills</h1>
+<article id="per">
+
+<p>HTML</p>
+<div class="container">
+  <div class="skills html">90%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">50%</div>
+</div>
+<br/>
+</article>
+<br/>
+<hr/>
+<h6> Certificates </h6>
+
+<a href="https://www.coursera.org/account/accomplishments/verify/5Y9X59G9YWYY" target="_blank"><img src="Coursera HTML5 Certificate.jpg"; height="500px"; width="500px"; alt="HTML5 Certificate";></a><br/>
+<img src="SoloLearn HTML Certificate.jpg"; height="500px"; width="500px"; alt="HTML Certificate";><br/>
+<img src="SoloLearn CSS Certificate.jpg"; height="500px"; width="500px"; alt="CSS Certificate";><br/>
+
+<br/>
+<hr/>
+<br/>
+<footer>
+ <article class="foot">
+  <a href="tel:+918469637498">to Call Me</a> |
+  <a href= "mailto:dhavalvera@gmail.com?subject = Contact Me&body = Message">to Email Me</a>
+  <p id="foot"> Website Created by Dhaval Vira&reg; </p>
+</body>
+</html>
