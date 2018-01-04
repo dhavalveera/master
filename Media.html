@@ -140,13 +140,49 @@ header {
 	.col-m-12 {width: 100%;}
 }
 
+.img {
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+	position: relative;
+	float: right;
+}
+
+@media only screen and (max-width: 320px) {
+	.img {width: 100px;
+		  position: relative;
+		  z-index: 1;
+		  opacity: 0.2;
+		  margin-left: 15px;}
+}
+
+@media only screen and (max-width: 600px) {
+	.img {width: 150px;}
+}
+
+@media only screen and (max-width: 768px) {
+	.img {width: 200px;}
+}
+
+@media only screen and (max-width: 1024px) {
+	.img {width: 250px;}
+}
+
+@media only screen and (max-width: 1600px) {
+	.img {width: 500px;}
+}
+
 </style>
 </head>
 <body>
 
+	<div class="img">
+	<img src="20170602_190237.jpg" height="300px" width="300px">
+	</div>
+
 <header>
 	<h1> Dhaval Vira </h1>
 </header>
+
 
 <div class="row">
 	<div class="col-3 col-m-3 menu">
@@ -162,7 +198,6 @@ header {
 			<li> Android </li>
 		</ul>
 	</div>
-
 
 <div class="col-6 col-m-9">
 	<h1> About Dhaval Vira </h1>
