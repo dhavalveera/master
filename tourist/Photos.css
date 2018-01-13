@@ -1,0 +1,148 @@
+body {
+	background-color: skyblue;
+}
+
+header {
+	background-color: rgb(94, 26, 251);
+	height: 110px;
+
+}
+
+p > img {
+	margin: 5px;
+	padding: 0px;
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+
+nav select {
+  display: none;
+}
+
+ul li a {
+	margin: 10px;
+	float: left;
+	display: inline;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li a {
+	color: red;
+	text-decoration: none;
+	background-color: white;
+	width: 10%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+h2 {
+	text-align: center;
+	color: purple;
+	line-height: 1px;
+}
+
+.img1 {
+	width: 1225px;
+	height: 500px;
+	margin-left: 50px;
+}
+
+
+.h1 {
+	text-align: center;
+	color: chocolate;
+}
+
+
+#h4 {
+	text-align: center;
+	color: red;
+	text-transform: capitalize;
+}
+
+#h2 {
+	text-align: center;
+	color: maroon;
+}
+
+
+#h1 {
+	text-align: center;
+	color: rgb(244, 26, 251);
+}
+
+.img9 {
+	width: 900px;
+}
+
+#h3 {
+	text-align: center;
+	color: rgb(16, 246, 246);
+	font-size: 2vw;
+}
+
+
+.h3 {
+	text-align: center;
+	color: rgb(20, 169, 254);
+}
+
+.img11 {
+	height: 500px;
+	width: 1200px;
+}
+
+#p1 {
+	text-align: center;
+	color: rgb(246, 254, 20);
+	font-size: 2.5vw;
+	line-height: 1px;
+}
+
+.img13 {
+	height: 500px;
+	width: 1200px;
+}
+
+.h4 {
+	text-align: center;
+	color: rgb(254, 161, 20);
+	font-size: 2.5vw;
+	line-height: 1px;
+}
+
+#p2 {
+	text-align: center;
+	font-size: 2.5vw;
+	line-height: 1px;
+	color: rgb(19, 59, 4);
+}
+
+.p2 {
+	text-align: center;
+	font-size: 2.5vw;
+	color: rgb(77, 127, 89);
+}
+
+#p3 {
+	text-align: center;
+	font-size: 2.5vw;
+	line-height: 1px;
+	color: rgb(136, 72, 247);
+}
+
+.p3 {
+	text-align: center;
+	font-style: 2.5vw;
+	color: rgb(134, 134, 55);
+}
+
+footer {
+	text-align: center;
+	
+}
