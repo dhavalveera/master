@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+	body {
+		background-color: lightblue;
+	}
+
+	.IAHT {
+		width: 100%;
+		height: 50%;
+	}
+
+	ul {
+		width: 100%;
+	}
+
+
+	article p {
+		display: none;
+	}
+
+	aside p {
+		display: none;
+	}
+
+
+	h1 {
+		text-align: center;
+		color: lightyellow;
+	}
+
+	.h1 {
+		text-align: center;
+		color: black;
+	}
+
+	#h1 {
+		text-align: center;
+		color: red;
+	}
+
+	#ul {
+		width: 100%;
+	}
+
+	footer {
+		margin: 90px;
+	}
+
+	footer a {
+		margin-top: 505px;
+		line-height: 2px;
+	}
+}
