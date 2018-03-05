@@ -1,0 +1,122 @@
+body {
+	background-color: lightgreen;
+}
+
+header {
+	background-color: lightyellow;
+}
+
+header nav a {
+	border-radius: 12px;
+	text-decoration-line: none;
+	display: inline-block;
+	width: 10%;
+	box-shadow: 1px 2px #3b3d3c;
+	padding: 1%;
+	margin: 1%;
+	color: 000000;
+	background-color: lightsalmon;
+	font-weight: bold;
+	text-align: center;
+}
+
+header nav a:hover {
+	background-color: lightseagreen;
+	color: maroon;
+	text-decoration-line: none;
+}
+
+span img {
+	max-width: 500px;
+	margin: auto;
+}
+
+aside img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+aside p {
+	float: left;
+	font-size: 9pt;
+	text-align: center;
+	width: 30%;
+	margin-left: -50px;
+	margin-right: 1%;
+	margin-bottom: 0.5em;
+}
+
+
+article {
+	float: left;
+	display: inline;
+}
+
+article .menuitem {
+	box-sizing: border-box;
+	text-align: center;
+	border: 1px solid grey;
+	padding: 5px;
+	width: 200px;
+	margin-left: 10px;
+	background-color: lightgrey;
+	color: red;
+	clear: both;
+}
+
+
+#menu2 {
+	border: 1px solid grey;
+	width: 200px;
+	float: left;
+	margin-left: 20px;
+	padding: 5px;
+	text-align: center;
+	background-color: lightgrey;
+	color: red;
+}
+
+
+#download {
+	float: left;
+}
+
+#menu3 {
+	border: 1px solid grey;
+	width: 200px;
+	float: left;
+	margin-left: 10px;
+	padding: 5px;
+	text-align: center;
+	background-color: lightgrey;
+	color: red;
+}
+
+
+#menu4 {
+	border: 1px solid grey;
+	width: 200px;
+	float: left;
+	margin-left: 20px;
+	padding: 5px;
+	text-align: center;
+	background-color: lightgrey;
+	color: red;
+}
+
+#contact {
+	float: left;
+}
+
+
+footer {
+	text-align: center;
+	color: green;
+	background-color: lightyellow;
+}
+
+#logo {
+	height: 200px;
+	width: 250px;
+}
