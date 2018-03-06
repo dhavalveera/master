@@ -1,0 +1,84 @@
+@media (max-width: 1000px) {
+	header nav a {
+		max-width: 75%;
+		text-decoration-line: none;
+	}
+}
+
+
+@media (max-width: 900px) {
+	header nav a {
+		width: 50%;
+		text-decoration-line: none;
+	}
+}
+
+
+@media (max-width: 768px) {
+
+body {
+	background-color: lightcyan;
+}
+
+header {
+	background-color: lightpink;
+}
+
+header nav a {
+	width: 35%;
+	text-decoration-line: none;
+}
+
+
+div .banner {
+	width: 100%;
+}
+
+aside h6 p a {
+	width: 100%;
+}
+
+aside h6 {
+	text-align: center;
+}
+
+
+article #part1, #part2, #part3 {
+	width: 100%;
+}
+
+article h4 {
+	width: 100%;
+	color: chocolate;
+}
+
+table {
+	width: 100%;
+}
+
+article img {
+	width: 100%;
+}
+
+.h4 {
+	text-align: center;
+	color: silver;
+	width: 100%;
+}
+
+.menu p {
+	margin-top: 5%;
+	float: left;
+	margin-left: 5%;
+}
+
+#menu2 {
+	width: 92%;
+}
+
+.menuitem {
+	width: 100%;
+}
+
+
+}

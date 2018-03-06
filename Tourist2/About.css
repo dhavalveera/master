@@ -1,0 +1,179 @@
+body {
+	background-color: lightgreen;
+}
+
+header {
+	background-color: lightyellow;
+}
+
+header nav a {
+	border-radius: 12px;
+	text-decoration-line: none;
+	display: inline-block;
+	width: 10%;
+	box-shadow: 1px 2px #3b3d3c;
+	padding: 1%;
+	margin: 1%;
+	color: 000000;
+	background-color: lightsalmon;
+	font-weight: bold;
+	text-align: center;
+}
+
+header nav a:hover {
+	background-color: lightseagreen;
+	color: maroon;
+	text-decoration-line: none;
+}
+
+
+header span img {
+	height: 300px;
+	width: 200px;
+	float: right;
+}
+
+div .banner {
+	width: 100%;
+}
+
+aside {
+	border: 1px solid grey;
+	height: 400px;
+	width: 200px;
+	float: left;
+	padding: 2px;
+	background-color: maroon;
+}
+
+aside h6 {
+	border: 1px solid grey;
+	width: 190px;
+	text-align: center;
+	padding: 5px;
+	float: left;
+	background-color: lightgrey;
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+h5 {
+	text-align: center;
+	border: 1px solid grey;
+	color: darkred;
+	background-color: silver;
+}
+
+
+article #part1, #part2, #part3, #part4, #part5, #part6, #part7 {
+	text-indent: 25px;
+}
+
+
+article h4 {
+	text-align: center;
+	color: purple;
+}
+
+table {
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table td {
+	border: 1px solid grey;
+	text-align: center;
+}
+
+th {
+	border: 1px solid grey;
+	text-align: center;
+	width: 100px;
+}
+
+
+.h4 {
+	text-align: center;
+	color: maroon;
+}
+
+#mumbai {
+	float: left;
+}
+
+
+#aboutarticle {
+	float: left;
+	display: inline;
+}
+
+
+article .menuitem {
+	box-sizing: border-box;
+	text-align: center;
+	border: 1px solid grey;
+	padding: 5px;
+	width: 200px;
+	margin-left: 10px;
+	background-color: lightgrey;
+	color: red;
+	clear: both;
+}
+
+
+#menu2 {
+	border: 1px solid grey;
+	width: 200px;
+	float: left;
+	margin-left: 20px;
+	padding: 5px;
+	text-align: center;
+	background-color: lightgrey;
+	color: red;
+}
+
+
+#download {
+	float: left;
+}
+
+#menu3 {
+	border: 1px solid grey;
+	width: 200px;
+	float: left;
+	margin-left: 10px;
+	padding: 5px;
+	text-align: center;
+	background-color: lightgrey;
+	color: red;
+}
+
+
+#menu4 {
+	border: 1px solid grey;
+	width: 200px;
+	float: left;
+	margin-left: 20px;
+	padding: 5px;
+	text-align: center;
+	background-color: lightgrey;
+	color: red;
+}
+
+#contact {
+	float: left;
+}
+
+
+footer {
+	text-align: center;
+	color: green;
+	background-color: lightyellow;
+}
+
+#logo {
+	height: 200px;
+	width: 250px;
+}
