@@ -1,0 +1,16 @@
+@media (max-width: 786px) {
+	body {
+		font-family: cursive;
+	}
+
+	header nav {
+		z-index: 10;
+		float: right;
+		width: 100%;
+	}
+
+	hr {
+		width: 50%;
+	}
+
+}

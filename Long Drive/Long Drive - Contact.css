@@ -1,0 +1,47 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.bgimg {
+	background-image: url(2018-volvo-xc60-12806-800x533-c.jpg);
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 25px;
+}
+
+.topleft {
+	position: absolute;
+	top: 0;
+	left: 16px;
+}
+
+.bottomleft {
+	position: absolute;
+	bottom: 0;
+	left: 16px;
+	top: 80%;
+	transform: translate(150%);
+	background-color: rgba(0,0,0,.8);
+	height: 40px;
+}
+
+
+.middle {
+	position: absolute;
+	top: 50%;
+	transform: translate(95%, -50%);
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,0,.8);
+}
+
+
+hr {
+	margin: auto;
+	width: 40%;
+}

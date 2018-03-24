@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+	body {
+		width: 100%;
+	}
+
+	* {
+		box-sizing: border-box;
+	}
+
+	.tab {
+		width: 75%;
+	}
+
+	h1 {
+		width: 50%;
+	}
+
+	#regForm {
+		width: 75%;
+	}
+
+}
