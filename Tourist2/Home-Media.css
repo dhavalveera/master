@@ -37,31 +37,6 @@ span img {
 	width: 100%;
 }
 
-aside img {
-	width: 100%;
-	margin-left: -10%;
-	border-radius: 50%;
-}
-
-.img1 {
-	width: 100%;
-	margin-left: 45%;
-	clear: both;
-	float: left;
-	margin-right: 100%;
-}
-
-aside p {
-	text-align: center;
-	margin-left: 5%;
-}
-
-#p1 a {
-	text-align: center;
-	margin-left: 15%;
-	margin: auto;	
-}
-
 
 hr {
 	margin-top: 65%;

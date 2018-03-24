@@ -1,6 +1,8 @@
 body {
 	background-color: lightgreen;
+	font-family: cursive;
 }
+
 
 header {
 	background-color: lightyellow;
@@ -35,16 +37,6 @@ aside img {
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
-}
-
-aside p {
-	float: left;
-	font-size: 9pt;
-	text-align: center;
-	width: 30%;
-	margin-left: -50px;
-	margin-right: 1%;
-	margin-bottom: 0.5em;
 }
 
 

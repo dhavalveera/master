@@ -37,7 +37,7 @@ div .banner {
 	width: 100%;
 }
 
-aside {
+section {
 	border: 1px solid grey;
 	height: 400px;
 	width: 200px;
@@ -46,7 +46,7 @@ aside {
 	background-color: maroon;
 }
 
-aside h6 {
+section h6 {
 	border: 1px solid grey;
 	width: 190px;
 	text-align: center;
@@ -100,69 +100,6 @@ th {
 }
 
 #mumbai {
-	float: left;
-}
-
-
-#aboutarticle {
-	float: left;
-	display: inline;
-}
-
-
-article .menuitem {
-	box-sizing: border-box;
-	text-align: center;
-	border: 1px solid grey;
-	padding: 5px;
-	width: 200px;
-	margin-left: 10px;
-	background-color: lightgrey;
-	color: red;
-	clear: both;
-}
-
-
-#menu2 {
-	border: 1px solid grey;
-	width: 200px;
-	float: left;
-	margin-left: 20px;
-	padding: 5px;
-	text-align: center;
-	background-color: lightgrey;
-	color: red;
-}
-
-
-#download {
-	float: left;
-}
-
-#menu3 {
-	border: 1px solid grey;
-	width: 200px;
-	float: left;
-	margin-left: 10px;
-	padding: 5px;
-	text-align: center;
-	background-color: lightgrey;
-	color: red;
-}
-
-
-#menu4 {
-	border: 1px solid grey;
-	width: 200px;
-	float: left;
-	margin-left: 20px;
-	padding: 5px;
-	text-align: center;
-	background-color: lightgrey;
-	color: red;
-}
-
-#contact {
 	float: left;
 }
 

@@ -31,7 +31,7 @@ div .banner {
 }
 
 
-aside .img1 {
+article .img1 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -57,69 +57,6 @@ h4 {
 td {
 	border: 1px solid grey;
 	text-align: center;
-}
-
-
-#aboutarticle {
-	float: left;
-	display: inline;
-}
-
-
-article .menuitem {
-	box-sizing: border-box;
-	text-align: center;
-	border: 1px solid grey;
-	padding: 5px;
-	width: 200px;
-	margin-left: 10px;
-	background-color: lightgrey;
-	color: red;
-	clear: both;
-}
-
-
-#menu2 {
-	border: 1px solid grey;
-	width: 200px;
-	float: left;
-	margin-left: 20px;
-	padding: 5px;
-	text-align: center;
-	background-color: lightgrey;
-	color: red;
-}
-
-
-#download {
-	float: left;
-}
-
-#menu3 {
-	border: 1px solid grey;
-	width: 200px;
-	float: left;
-	margin-left: 10px;
-	padding: 5px;
-	text-align: center;
-	background-color: lightgrey;
-	color: red;
-}
-
-
-#menu4 {
-	border: 1px solid grey;
-	width: 200px;
-	float: left;
-	margin-left: 20px;
-	padding: 5px;
-	text-align: center;
-	background-color: lightgrey;
-	color: red;
-}
-
-#contact {
-	float: left;
 }
 
 
