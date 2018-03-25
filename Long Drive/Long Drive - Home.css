@@ -15,10 +15,8 @@ header a {
 	float: right;
 }
 
-header img {
+header .navbar-brand img {
 	vertical-align: middle;
-	height: 100px;
-	width: 150px;
 	padding: 10px;
 }
 
@@ -58,6 +56,11 @@ header img {
 
 .button {
 	font-size: 25px;
+}
+
+#imp {
+	font-family: 'Indie Flower', cursive;
+	font-size: 26px;
 }
 
 

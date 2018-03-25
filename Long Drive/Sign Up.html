@@ -48,7 +48,7 @@
         <a class="nav-link" href="Long Drive - Service.html">Services</a>
       </li>
       <li class="nav-item"> 
-      	<a class="nav-link" href="Long Drive - Tariff.html">Tariff</a>
+      	<a class="nav-link" href="Long Drive - Rate Card.html">Rate Card</a>
       </li>
       <li class="nav-item">
       	<a class="nav-link" href="Long Drive - Contact.html">Contact Us</a>
@@ -72,9 +72,13 @@
         <p><input placeholder="Phone..." oninput="this.className = ''" name="phone"></p>
       </div>
       <div class="tab">Birthday:
-        <p><input placeholder="dd" oninput="this.className = ''" name="dd"></p>
-        <p><input placeholder="mm" oninput="this.className = ''" name="nn"></p>
-        <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>
+        <p><input type="date" id="date" value="birth"></p>
+        Account Type:
+        <p><select>
+          <option   value=""></option>
+          <option value="Driver">As a Driver</option>
+          <option value="Client">As a Client</option>
+        </select></p>        
       </div>
       <div class="tab">Login Info:
         <p><input placeholder="Username...." oninput="this.className = ''" name="uname"></p>
@@ -191,7 +195,7 @@ function fixStepIndicator(n) {
 
 <p id="time"></p>
 <script>
-  document.getElementById('demo').innerHTML = Date();
+  document.getElementById('time').innerHTML = Date();
 </script>
 
 <br>
