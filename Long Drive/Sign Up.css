@@ -1,3 +1,10 @@
+header nav ul li {
+	font-size: 18px;
+	margin: 20px;
+}
+
+
+
 #regForm {
 	background-color: #ffffff;
 	margin: 100px auto;

@@ -1,3 +1,9 @@
+header nav ul li {
+  font-size: 18px;
+  margin: 20px;
+}
+
+
 .form-signin {
   width: 100%;
   max-width: 330px;

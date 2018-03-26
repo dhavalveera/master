@@ -5,6 +5,12 @@ body {
 
 header nav ul li {
 	font-size: 18px;
+	margin: 14px;
+}
+
+
+header nav {
+	width: 100%;
 }
 
 header a {
