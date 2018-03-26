@@ -3,8 +3,8 @@ header nav ul li {
 	margin: 20px;
 }
 
-aside, h3, p {
-	text-indent: 25px;
+aside {
+	text-indent: 24px;
 }
 
 aside h3 {
@@ -17,9 +17,11 @@ aside h3 {
 }
 
 .row {
-	border: 1px solid black;
-	width: 750px;
-	border-collapse: collapse;
+	background-color: rgba(101, 197, 242, .3);
+}
+
+.row h2 {
+	font-weight: bolder;
 }
 
 h1 {
@@ -38,6 +40,11 @@ h1 {
 
 #p1 {
 	font-size: 30px;
+}
+
+
+#aside {
+	text-align: center;
 }
 
 
