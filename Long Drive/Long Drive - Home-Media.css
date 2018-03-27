@@ -21,14 +21,21 @@
 		height: 115px;
 	}
 
+	.caption {
+		top: 50%;
+		background-color: rgba(0,0,0,.0);
+	}
+
 	.caption h1 {
 		width: 100%;
+		background-color: rgba(0,0,0,0.3);
 		font-size: 22px;
 		color: #f6ff00;
 	}
 
 	.caption h3 {
 		font-size: 16px;
+		background-color: rgba(0,0,0,0.5);
 		width: 100%;
 		color: #00FFF0;
 		font-weight: 700;
