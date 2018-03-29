@@ -2,30 +2,10 @@ body {
 	background-color: lightgreen;
 }
 
-header {
-	background-color: lightyellow;
+header nav li a {
+	margin: 20px;
+	font-size: 18px;
 }
-
-header nav a {
-	border-radius: 12px;
-	text-decoration-line: none;
-	display: inline-block;
-	width: 10%;
-	box-shadow: 1px 2px #3b3d3c;
-	padding: 1%;
-	margin: 1%;
-	color: 000000;
-	background-color: lightsalmon;
-	font-weight: bold;
-	text-align: center;
-}
-
-header nav a:hover {
-	background-color: lightseagreen;
-	color: maroon;
-	text-decoration-line: none;
-}
-
 
 header span img {
 	height: 300px;
@@ -36,6 +16,7 @@ header span img {
 div .banner {
 	width: 100%;
 }
+
 
 section {
 	border: 1px solid grey;
@@ -58,11 +39,13 @@ section h6 {
 	font-size: 18px;
 }
 
-h5 {
+article h5 {
 	text-align: center;
+	font-size: 25px;
 	border: 1px solid grey;
 	color: darkred;
 	background-color: silver;
+	font-weight: bolder;
 }
 
 

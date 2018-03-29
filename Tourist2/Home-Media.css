@@ -1,36 +1,7 @@
-@media (max-width: 1000px) {
-	header nav a {
-		max-width: 75%;
-		text-decoration-line: none;
-	}
-}
-
-
-@media (max-width: 900px) {
-	header nav a {
-		width: 50%;
-		text-decoration-line: none;
-	}
-}
-
-
 @media (max-width: 768px) {
 
 body {
 	background-color: lightcyan;
-}
-
-header {
-	background-color: lightpink;
-}
-
-header nav a {
-	width: 35%;
-	text-decoration-line: none;
-}
-
-header script {
-	width: 100%;
 }
 
 span img {

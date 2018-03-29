@@ -3,29 +3,9 @@ body {
 	font-family: cursive;
 }
 
-
-header {
-	background-color: lightyellow;
-}
-
-header nav a {
-	border-radius: 12px;
-	text-decoration-line: none;
-	display: inline-block;
-	width: 10%;
-	box-shadow: 1px 2px #3b3d3c;
-	padding: 1%;
-	margin: 1%;
-	color: 000000;
-	background-color: lightsalmon;
-	font-weight: bold;
-	text-align: center;
-}
-
-header nav a:hover {
-	background-color: lightseagreen;
-	color: maroon;
-	text-decoration-line: none;
+header nav li a {
+	margin: 20px;
+	font-size: 18px;
 }
 
 span img {
