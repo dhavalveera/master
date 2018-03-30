@@ -67,26 +67,44 @@
 	</header>
 <br><br>
 <span>
-	<img src="https://nkkoganti.files.wordpress.com/2013/03/parliament.jpg" class="mySlides" style="width: 100%">
-	<img src="http://www.remotetraveler.com/wp-content/uploads/2013/11/Charminar-at-night-Hyderabad-856x556.jpg" class="mySlides" style="width: 100%;">
-	<img src="https://sriharmandirsahib.files.wordpress.com/2013/07/golden-temple1.jpg" class="mySlides" style="width: 100%;">
 
-	<script>
-var myIndex = 0;
-carousel();
+		<div id="demo" class="carousel slide" data-ride="carousel">
+			<ul class="carousel-indicators">
+				<li data-target="#dmeo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+			</ul>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="https://nkkoganti.files.wordpress.com/2013/03/parliament.jpg" alt="Indian Parliament" width="500px" height="500px">
+					<div class="carousel-caption">
+						<h3> Indian Parliament </h3>
+						<p> Parliament in Delhi, India </p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="http://www.remotetraveler.com/wp-content/uploads/2013/11/Charminar-at-night-Hyderabad-856x556.jpg" alt="Charminar at Night in Hyderabad" width="500px" height="500px">
+					<div class="carousel-caption">
+						<h3> Charminar in Night </h3>
+						<p> Hyderabad, Telangana, India </p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="https://sriharmandirsahib.files.wordpress.com/2013/07/golden-temple1.jpg" alt="Golden Temple Amritsar" width="500px" height="500px">
+					<div class="carousel-caption">
+						<h3> Golden Temple </h3>
+						<p> Amritsar, Punjab, India </p>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 4000); // Change image every 4 seconds
-}
-	</script>
 
 </span>
 <br><br><br>
@@ -135,12 +153,31 @@ function carousel() {
 <hr>
 <br><br>
 <footer>
-	<p> Website Created by <strong> Dhaval Vira </strong></p>
-	<img id="logo" src="Adobe Spark.jpg"><br>
-	<a href="mailto: dhavalveera@gmail.com" class="fa fa fa-envelope-o"> Email Me </a> | <a href="skype: dhaval.vira1" class="fa fa-skype"> Skype </a> <br>
-	<a href="https://www.linkedin.com/in/dhaval-vira" target="_blank" class="fa fa-linkedin"> LinkedIn </a> |
-			<a href="https://www.github.com/dhavalveera" target="_blank" class="fa fa-github"> GitHub </a><br>
-	<a href="https://api.whatsapp.com/send?phone=918469637498" class="fa fa-whatsapp"> WhatsApp </a> | <a href="tel: +918469637498" class="fa fa-phone"> Call Me </a>
+
+
+	<div class="clearfix">
+		<div class="col-sm-4">
+			<img src="Adobe Spark.jpg" height="200px" width="200px" alt="Adobe Spark">
+		</div><br>
+		<div class="col-sm-4">
+			<p> Website Created by <strong> Dhaval Vira </strong></p>
+			<p> &copy; 2018 - 2019. All Rights Reserved. </p>
+			<p> I've created this Website for Tourist Places of India where Tourists can Visit while Traveling Tourist Places. </p>
+		</div><br>
+		<div class="col-sm-4">
+			<div class="btn-group-vertical">
+				<button type="button" class="btn btn-danger fa fa fa-envelope-o"><a href="mailto: dhavalveera@gmail.com"> Email Me </a></button>
+				<button type="button" class="btn btn-danger fa fa-phone"><a href="tel: +918469637498"> Call Me </a></button>
+				<button type="button" class="btn btn-danger fa fa-skype"><a href="skype: dhaval.vira1"> Skype </a></button>
+				<button type="button" class="btn btn-danger fa fa-linkedin"><a href="https://www.linkedin.com/in/dhaval-vira" target="_blank"> LinkedIn </a></button>
+				<button type="button" class="btn btn-danger fa fa-github"><a href="https://www.github.com/dhavalveera" target="_blank"> GitHub </a></button>
+				<button type="button" class="btn btn-danger fa fa-whatsapp"><a href="https://api.whatsapp.com/send?phone=918469637498"> WhatsApp </a></button>
+			</div>
+		</div>
+	</div>
+<br>
+<br>
+
 </footer>
 
 

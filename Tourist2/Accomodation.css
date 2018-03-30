@@ -54,3 +54,19 @@ footer {
 	height: 200px;
 	width: 250px;
 }
+
+
+footer a {
+	color: rgba(0,0,0);
+	text-decoration-line: none;
+}
+
+
+footer a:hover {
+	text-decoration-line: none;
+}
+
+
+footer button {
+	background-color: rgba(0,0,0,.6);
+}

@@ -8,9 +8,9 @@ header nav li a {
 	font-size: 18px;
 }
 
-span img {
-	max-width: 500px;
-	margin: auto;
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
 }
 
 aside img {
@@ -20,75 +20,17 @@ aside img {
 }
 
 
-article {
-	float: left;
-	display: inline;
-}
-
-article .menuitem {
-	box-sizing: border-box;
-	text-align: center;
-	border: 1px solid grey;
-	padding: 5px;
-	width: 200px;
-	margin-left: 10px;
-	background-color: lightgrey;
-	color: red;
-	clear: both;
+footer a {
+	color: rgba(0,0,0);
+	text-decoration-line: none;
 }
 
 
-#menu2 {
-	border: 1px solid grey;
-	width: 200px;
-	float: left;
-	margin-left: 20px;
-	padding: 5px;
-	text-align: center;
-	background-color: lightgrey;
-	color: red;
+footer a:hover {
+	text-decoration-line: none;
 }
 
 
-#download {
-	float: left;
-}
-
-#menu3 {
-	border: 1px solid grey;
-	width: 200px;
-	float: left;
-	margin-left: 10px;
-	padding: 5px;
-	text-align: center;
-	background-color: lightgrey;
-	color: red;
-}
-
-
-#menu4 {
-	border: 1px solid grey;
-	width: 200px;
-	float: left;
-	margin-left: 20px;
-	padding: 5px;
-	text-align: center;
-	background-color: lightgrey;
-	color: red;
-}
-
-#contact {
-	float: left;
-}
-
-
-footer {
-	text-align: center;
-	color: green;
-	background-color: lightyellow;
-}
-
-#logo {
-	height: 200px;
-	width: 250px;
+footer button {
+	background-color: rgba(0,0,0,.6);
 }

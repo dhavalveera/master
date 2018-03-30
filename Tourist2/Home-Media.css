@@ -4,28 +4,8 @@ body {
 	background-color: lightcyan;
 }
 
-span img {
-	width: 100%;
-}
-
-
 hr {
 	margin-top: 65%;
-}
-
-
-.menu p {
-	margin-top: 5%;
-	float: left;
-	margin-left: 5%;
-}
-
-#menu2 {
-	width: 92%;
-}
-
-.menuitem {
-	width: 100%;
 }
 
 
