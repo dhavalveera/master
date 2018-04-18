@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+	body {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+	h3 {
+		line-height: 1;
+	}
+
+	h4 {
+		line-height: 1;
+	}
+
+
+}
