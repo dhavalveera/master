@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+	body {
+		font-family: 'Shadows Into Light', cursive;
+	}
+
+	.type h1, h2 {
+		background-color: rgba(0,0,0,.8);
+	}
+
+	.type h1 {
+		position: absolute;
+		top: 50%;
+		left: 45%;
+		transform: translate(-50%, -50%);
+		font-size: 37px;
+	}
+
+	.type h2 {
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		color: maroon;
+		transform: translate(-50%, -50%);
+	}
+
+	body #Skills .skill-learning h2 {
+		font-size: 4em;
+		color: red;
+		background-color: rgba(0,0,0,.0);
+	}
+}

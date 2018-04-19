@@ -1,0 +1,198 @@
+body {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+* {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+header {
+	color: yellow;
+	font-family: 'Shadows Into Light', cursive;
+	background: url("Programming.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 125vh;
+}
+
+
+header nav li a {
+	margin: 15px;
+	text-indent: 120px;
+	font-size: 22px;
+}
+
+header nav li {
+	position: sticky;
+}
+
+.nav-img {
+	width: 175px;
+	height: 75px;
+}
+
+.type h1 {
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	transform: translate(-50%, -50%;);
+}
+
+.type h2 {
+	position: absolute;
+	top: 60%;
+	left: 42%;
+	transform: translate(-50%, -50%;);
+}
+
+
+body h1 {
+	font-size: 4em;
+}
+
+body #About {
+	background-color: #9b0c12;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	margin-bottom: 2%;
+}
+
+body #About .container hr {
+	border-top: 3px solid #222;
+	width: 25%;
+	color: white;
+	margin-bottom: 30px;
+}
+
+#About p {
+	font-size: 1.6em;
+	color: yellow;
+	text-indent: 50px;
+}
+
+body #Skills {
+	background: url("html5.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 175vh;
+}
+
+body main #Skills {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+body #Skills .container > h1 {
+	color: red;
+}
+
+body #Skills .container hr {
+	border-top: 3px solid red;
+	width: 25%;
+	color: white;
+	margin-bottom: 30px;
+}
+
+#Skills p {
+	font-size: 2em;
+	color: yellow;
+	text-indent: 50px;
+}
+
+i {
+	vertical-align: middle;
+}
+
+progress {
+	vertical-align: middle;
+	background-color: green;
+	width: 225px;
+}
+
+
+body #Skills .skill-learning hr {
+	border-top: 3px solid purple;
+	width: 35%;
+	color: white;
+	margin-bottom: 30px;
+}
+
+
+body #Skills .skill-learning h2 {
+	font-size: 4em;
+	color: red;
+}
+
+
+body #Projects {
+	background: url("css3.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 110vh;
+}
+
+body #Projects hr {
+	border-top: 3px solid chocolate;
+	width: 15%;
+	color: white;
+	margin-bottom: 30px;
+}
+
+
+body #Projects h1 {
+	color: red;
+}
+
+
+#h3 {
+	text-align: center;
+	font-size: 2.5em;
+	color: red;
+	background-color: rgba(0,0,0,.6);
+}
+
+
+#p1 {
+	font-size: 2em;
+	text-align: center;
+	color: red;
+	background-color: rgba(0,0,0,.6);
+}
+
+
+.hire .container-fluid p a {
+	text-decoration: none;
+	color: red;
+	font-size: 2em;
+	text-align: center;
+}
+
+
+body #Contact {
+	background: url("bootstrap.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+body #Contact .container h1 {
+	color: red;
+	font-weight: bolder;
+}
+
+body #Contact .container hr {
+	border-top: 3px solid white;
+	width: 40%;
+	color: white;
+	margin-bottom: 30px;
+}
+
+
+#footerp {
+	font-size: 2em;
+	color: red;
+}
