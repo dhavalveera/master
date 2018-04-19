@@ -176,7 +176,7 @@ body #Contact {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
+	height: 80vh;
 }
 
 body #Contact .container h1 {
@@ -195,4 +195,5 @@ body #Contact .container hr {
 #footerp {
 	font-size: 2em;
 	color: red;
+	background-color: rgba(0,0,0,.5);
 }

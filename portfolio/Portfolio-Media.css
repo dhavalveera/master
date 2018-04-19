@@ -23,9 +23,34 @@
 		transform: translate(-50%, -50%);
 	}
 
+
+	body #Skills {
+	background: url("html5.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 410vh;
+}
+
 	body #Skills .skill-learning h2 {
 		font-size: 4em;
 		color: red;
 		background-color: rgba(0,0,0,.0);
+	}
+
+	body #Projects {
+		background: url("css3.jpg");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 150vh;
+	}
+
+	body #Contact {
+		background: url("bootstrap.jpg");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 150vh;
 	}
 }
