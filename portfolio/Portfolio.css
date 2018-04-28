@@ -54,8 +54,6 @@ body h1 {
 body #About {
 	background-color: #9b0c12;
 	padding-top: 3%;
-	padding-bottom: 2%;
-	margin-bottom: 2%;
 }
 
 body #About .container hr {
@@ -72,7 +70,7 @@ body #About .container hr {
 }
 
 body #Skills {
-	background: url("html5.jpg");
+	background-image: url("html5.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -81,7 +79,6 @@ body #Skills {
 
 body main #Skills {
 	padding-top: 5%;
-	padding-bottom: 5%;
 }
 
 body #Skills .container > h1 {
@@ -127,12 +124,13 @@ body #Skills .skill-learning h2 {
 
 
 body #Projects {
-	background: url("css3.jpg");
+	background-image: url("css3.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 110vh;
 }
+
 
 body #Projects hr {
 	border-top: 3px solid chocolate;
@@ -163,6 +161,15 @@ body #Projects h1 {
 }
 
 
+body .hire {
+	background: url("contact-us-banner.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45vh;
+}
+
+
 .hire .container-fluid p a {
 	text-decoration: none;
 	color: red;
@@ -172,7 +179,7 @@ body #Projects h1 {
 
 
 body #Contact {
-	background: url("bootstrap.jpg");
+	background-image: url("bootstrap.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
