@@ -178,6 +178,17 @@ body .hire {
 }
 
 
+#hireme {
+	color: red;
+}
+
+#hireme1 {
+	color: black;
+	font-size: 2.5em;
+	font-weight: bolder;
+}
+
+
 body #Contact {
 	background-image: url("bootstrap.jpg");
 	background-attachment: fixed;

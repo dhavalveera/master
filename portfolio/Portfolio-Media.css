@@ -53,4 +53,12 @@
 		background-size: cover;
 		height: 150vh;
 	}
+
+	body .hire {
+		background: url("contact-us-banner.jpg");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 70vh;
+	}
 }
