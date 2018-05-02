@@ -1,14 +1,14 @@
 body {
-	font-family: 'Shadows Into Light', cursive;
+	font-family: cursive;
 }
 
 * {
-	font-family: 'Shadows Into Light', cursive;
+	font-family: cursive;
 }
 
 header {
 	color: yellow;
-	font-family: 'Shadows Into Light', cursive;
+	font-family: cursive;
 	background: url("Programming.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
