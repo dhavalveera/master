@@ -17,7 +17,7 @@
 
 	.type h2 {
 		position: absolute;
-		top: 60%;
+		top: 65%;
 		left: 50%;
 		color: maroon;
 		transform: translate(-50%, -50%);
@@ -50,7 +50,7 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 425vh;
+		height: 400vh;
 	}
 
 
@@ -62,19 +62,21 @@
 		display: block;
 	}
 
-	body #Contact {
-		background: url("bootstrap.jpg");
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 120vh;
-	}
-
 	body .hire {
 		background: url("contact-us-banner.jpg");
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 200vh;
+		height: 100vh;
 	}
+
+	body #Contact {
+		background: url("bootstrap.jpg");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 250vh;
+	}
+
+	
 }
