@@ -7,9 +7,10 @@
 		position: absolute;
 		top: 50%;
 		left: 45%;
-		color: chocolate;
+		color: red;
 		transform: translate(-50%, -50%);
 		font-size: 37px;
+		font-weight: bolder;
 	}
 
 	.type h2 {
@@ -17,7 +18,8 @@
 		top: 65%;
 		left: 50%;
 		width: 100%;
-		color: chocolate;
+		color: red;
+		font-weight: bolder;
 		transform: translate(-50%, -50%);
 	}
 
@@ -48,7 +50,7 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 370vh;
+		height: 360vh;
 	}
 
 
@@ -65,7 +67,7 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 80vh;
+		height: 75vh;
 	}
 
 	body #Contact {
