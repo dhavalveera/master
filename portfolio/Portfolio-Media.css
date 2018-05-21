@@ -1,11 +1,5 @@
 @media (max-width: 768px) {
-	body {
-		font-family: cursive !important;
-	}
-
-	* {
-		font-family: cursive !important;
-	}
+	
 
 	.type h1, h2 {
 		background-color: rgba(0,0,0,.8);
