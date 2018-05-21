@@ -3,6 +3,10 @@
 		font-family: cursive !important;
 	}
 
+	* {
+		font-family: cursive;
+	}
+
 	.type h1, h2 {
 		background-color: rgba(0,0,0,.8);
 	}
@@ -50,7 +54,7 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 325vh;
+		height: 305vh;
 	}
 
 
