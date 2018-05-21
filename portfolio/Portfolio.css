@@ -35,11 +35,10 @@ header nav li {
 .type h1 {
 	position: absolute;
 	top: 50%;
-	left: 45%;
+	left: 48%;
 	font-size: 5em;
 	transform: translate(-50%, -50%;);
-	color: white;
-	background: rgba(0,0,0,.6);
+	color: chocolate;
 }
 
 .type h2 {
@@ -49,8 +48,7 @@ header nav li {
 	font-weight: 5em;
 	text-align: center;
 	transform: translate(-50%, -50%;);
-	color: white;
-	background: rgba(0,0,0,.6);
+	color: chocolate;
 }
 
 
