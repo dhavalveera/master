@@ -53,7 +53,13 @@
 		height: 300vh;
 	}
 
-	#i, #i1 {
+
+	#i {
+		display: none;
+	}
+
+
+	#i1 {
 		display: inline-block;
 	}
 
