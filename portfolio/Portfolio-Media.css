@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
 	body {
-		font-family: cursive;
+		font-family: cursive !important;
 	}
 
 	.type h1, h2 {
@@ -58,9 +58,8 @@
 		display: none;
 	}
 
-
 	#i1 {
-		display: inline-block;
+		display: block;
 	}
 
 	body #Contact {
