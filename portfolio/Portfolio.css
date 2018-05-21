@@ -1,14 +1,14 @@
 body {
-	font-family: cursive;
+	font-family: 'Bad Script', cursive;
 }
 
 * {
-	font-family: cursive;
+	font-family: 'Bad Script', cursive;
 }
 
 header {
 	color: yellow;
-	font-family: cursive;
+	font-family: 'Bad Script', cursive;
 	background: url("Programming.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
