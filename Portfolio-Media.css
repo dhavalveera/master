@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
 	body {
-		font-family: cursive;
+		font-family: cursive !important;
 	}
 
 	.type h1, h2 {
