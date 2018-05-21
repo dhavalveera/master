@@ -2,6 +2,10 @@ body {
 	font-family: cursive;
 }
 
+* {
+	font-family: cursive;
+}
+
 header {
 	color: yellow;
 	font-family: cursive;
