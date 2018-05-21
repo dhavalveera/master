@@ -36,6 +36,7 @@ header nav li {
 	position: absolute;
 	top: 50%;
 	left: 45%;
+	font-size: 5em;
 	transform: translate(-50%, -50%;);
 	color: white;
 	background: rgba(0,0,0,.6);
@@ -44,7 +45,9 @@ header nav li {
 .type h2 {
 	position: absolute;
 	top: 60%;
-	left: 42%;
+	left: 43%;
+	font-weight: 5em;
+	text-align: center;
 	transform: translate(-50%, -50%;);
 	color: white;
 	background: rgba(0,0,0,.6);
@@ -60,23 +63,24 @@ body #About {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 160vh;
+	height: 175vh;
 }
 
 body #About .container hr {
 	border-top: 3px solid #222;
-	width: 25%;
+	width: 27%;
 	color: white;
 	margin-bottom: 30px;
 }
 
 body #About .container h1 {
 	color: white;
+	font-size: 5em;
 	background: rgba(0,0,0,.6);
 }
 
 #About p {
-	font-size: 1.8em;
+	font-size: 2em;
 	color: chocolate;
 	background-color: rgba(0,0,0,.6);
 	text-indent: 50px;
@@ -89,7 +93,8 @@ body #About .container h1 {
 figcaption {
 	font-size: 1.8em;
 	text-align: center;
-	color: rgb(255,255,255);
+	color: rgb(250,8,8);
+	font-weight: bolder;
 }
 
 body #Skills {
@@ -97,7 +102,7 @@ body #Skills {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 175vh;
+	height: 200vh;
 }
 
 body main #Skills {
@@ -106,17 +111,18 @@ body main #Skills {
 
 body #Skills .container > h1 {
 	color: white;
+	font-size: 5em;
 }
 
 body #Skills .container hr {
 	border-top: 3px solid red;
-	width: 15%;
+	width: 17%;
 	color: white;
 	margin-bottom: 30px;
 }
 
 #Skills p {
-	font-size: 2em;
+	font-size: 3em;
 	color: white;
 	text-indent: 50px;
 }
@@ -151,7 +157,7 @@ body #Projects {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 190vh;
+	height: 200vh;
 }
 
 
@@ -165,6 +171,7 @@ body #Projects hr {
 
 body #Projects h1 {
 	color: white;
+	font-size: 5em;
 	margin-top: 0px;
 }
 
@@ -179,14 +186,14 @@ body #Projects h1 {
 
 #h3 {
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 4em;
 	color: white;
 	background-color: rgba(0,0,0,.6);
 }
 
 
 #p1 {
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center;
 	color: white;
 	background-color: rgba(0,0,0,.6);
@@ -226,12 +233,13 @@ body #Contact {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 80vh;
+	height: 100vh;
 }
 
 body #Contact .container h1 {
 	color: white;
 	font-weight: bolder;
+	font-size: 5em;
 }
 
 body #Contact .container hr {
@@ -243,6 +251,6 @@ body #Contact .container hr {
 
 
 #footerp {
-	font-size: 2em;
+	font-size: 3em;
 	color: white;
 }
