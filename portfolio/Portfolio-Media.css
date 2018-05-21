@@ -28,7 +28,7 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 325vh;
+		height: 375vh;
 	}
 
 	body #Skills {
@@ -36,7 +36,7 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 410vh;
+		height: 420vh;
 	}
 
 	body #Skills .skill-learning h2 {
@@ -50,7 +50,7 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 305vh;
+		height: 325vh;
 	}
 
 
@@ -75,6 +75,6 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 70vh;
+		height: 100vh;
 	}
 }

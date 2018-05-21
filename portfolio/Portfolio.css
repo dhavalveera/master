@@ -44,7 +44,7 @@ header nav li {
 
 .type h2 {
 	position: absolute;
-	top: 60%;
+	top: 62%;
 	left: 43%;
 	font-weight: 5em;
 	text-align: center;
@@ -86,9 +86,6 @@ body #About .container h1 {
 	text-indent: 50px;
 }
 
-#About p a {
-	border: 1px dotted red;
-}
 
 figcaption {
 	font-size: 1.8em;
