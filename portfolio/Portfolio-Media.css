@@ -7,7 +7,7 @@
 		position: absolute;
 		top: 50%;
 		left: 45%;
-		color: red;
+		color: chocolate;
 		transform: translate(-50%, -50%);
 		font-size: 37px;
 		font-weight: bolder;
@@ -18,7 +18,7 @@
 		top: 65%;
 		left: 50%;
 		width: 100%;
-		color: red;
+		color: chocolate;
 		font-weight: bolder;
 		transform: translate(-50%, -50%);
 	}
