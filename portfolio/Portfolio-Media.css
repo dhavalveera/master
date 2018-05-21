@@ -17,8 +17,9 @@
 
 	.type h2 {
 		position: absolute;
-		top: 65%;
+		top: 63%;
 		left: 50%;
+		width: 100%;
 		color: maroon;
 		transform: translate(-50%, -50%);
 	}
@@ -31,6 +32,13 @@
 		height: 350vh;
 	}
 
+	body #About .container hr {
+		border-top: 3px solid #222;
+		width: 27%;
+		color: white;
+		margin-bottom: 30px;
+	}
+
 	body #Skills {
 		background: url("html5.jpg");
 		background-attachment: fixed;
@@ -39,10 +47,24 @@
 		height: 430vh;
 	}
 
+	body #Skills .container hr {
+		border-top: 3px solid red;
+		width: 17%;
+		color: white;
+		margin-bottom: 30px;
+	}
+
 	body #Skills .skill-learning h2 {
 		font-size: 4em;
 		color: red;
 		background-color: rgba(0,0,0,.0);
+	}
+
+	body #Skills .skill-learning hr {
+		border-top: 3px solid purple;
+		width: 45%;
+		color: white;
+		margin-bottom: 30px;
 	}
 
 	body #Projects {
@@ -50,7 +72,15 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 400vh;
+		height: 380vh;
+	}
+
+
+	body #Projects hr {
+		border-top: 3px solid chocolate;
+		width: 18%;
+		color: white;
+		margin-bottom: 30px;
 	}
 
 
@@ -67,7 +97,7 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 100vh;
+		height: 85vh;
 	}
 
 	body #Contact {
@@ -75,7 +105,14 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 250vh;
+		height: 230vh;
+	}
+
+	body #Contact .container hr {
+		border-top: 3px solid white;
+		width: 40%;
+		color: white;
+		margin-bottom: 30px;
 	}
 
 	
