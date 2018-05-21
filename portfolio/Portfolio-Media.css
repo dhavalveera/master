@@ -50,7 +50,11 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 150vh;
+		height: 300vh;
+	}
+
+	#i, #i1 {
+		display: inline-block;
 	}
 
 	body #Contact {

@@ -169,6 +169,14 @@ body #Projects h1 {
 }
 
 
+#i {
+	margin-top: 100%;
+}
+
+#i1 {
+	display: none;
+}
+
 #h3 {
 	text-align: center;
 	font-size: 2.5em;
