@@ -1,0 +1,100 @@
+body {
+	font-family: cursive !important;
+}
+
+* {
+	font-family: cursive !important;
+}
+
+
+header nav li {
+	margin: 25px;
+	font-size: .9em;
+	text-indent: 100px;
+}
+
+header ul li a {
+	text-align: center;
+}
+
+.h1 {
+	text-align: center;
+	font-family: cursive !important;
+}
+
+.container p {
+	font-size: 1;
+	font-family: cursive !important;
+}
+
+.h3 {
+	text-align: center;
+	font-size: 1.2em;
+	color: brown !important;
+}
+
+#img {
+	width: 250px;
+	height: 250px;
+}
+
+.maitraka {
+	text-align: center;
+	text-indent: 20%;
+}
+
+
+.chahamanas {
+	text-align: center;
+	text-indent: 18%;
+}
+
+
+.chalukya {
+	text-align: center;
+	text-indent: 15%;
+}
+
+
+.harsha {
+	text-align: center;
+	text-indent: 14%;
+}
+
+
+.gurjara {
+	text-align: center;
+	text-indent: 17%;
+}
+
+
+.rashtrakuta {
+	text-align: center;
+	text-indent: 10%;
+}
+
+
+.pala {
+	text-align: center;
+	text-indent: 14%;
+}
+
+
+.paramara {
+	text-align: center;
+	text-indent: 15%;
+}
+
+
+.hoysala {
+	text-align: center;
+	text-indent: 17%;
+}
+
+ol {
+	border: 1px solid;
+}
+
+ol li {
+	border: 1px solid;
+}

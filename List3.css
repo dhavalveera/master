@@ -1,0 +1,50 @@
+body {
+	font-family: cursive !important;
+}
+
+* {
+	font-family: cursive !important;
+}
+
+
+header nav li {
+	margin: 25px;
+	font-size: .9em;
+	text-indent: 100px;
+}
+
+header ul li a {
+	text-align: center;
+}
+
+
+.h1 {
+	text-align: center;
+}
+
+
+#img {
+	width: 250px;
+	height: 250px;
+}
+
+
+.h3 {
+	text-align: center;
+	font-size: 1.2em;
+	color: brown !important;
+}
+
+.h2 {
+	text-align: center;
+	color: chocolate !important;
+}
+
+
+ol {
+	border: 1px solid;
+}
+
+ol li {
+	border: 1px solid;
+}
