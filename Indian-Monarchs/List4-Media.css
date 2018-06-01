@@ -5,25 +5,14 @@
 
 	* {
 		font-family: cursive !important;
-	}
-
-	header nav li {
-		margin: 25px;
-		font-size: .8em;
-		text-indent: 100px;
-	}
-
-	header ul li a {
-		text-align: center;
-	}
-
-
-	#h1 {
 		width: 100%;
-		columns: skyblue;
 	}
 
-	.h1 {
+	.h1, .h3 {
+		width: 100%;
+	}
+
+	img {
 		width: 100%;
 	}
 }

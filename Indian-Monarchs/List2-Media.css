@@ -1,0 +1,72 @@
+@media (max-width: 768px) {
+	body {
+		font-family: cursive !important;
+	}
+
+	* {
+		font-family: cursive !important;
+		width: 100%;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	.h1 {
+	text-align: center;
+	font-family: cursive !important;
+}
+
+	.container p {
+		width: 100%;
+	}
+
+	.h3 {
+		width: 100%;
+	}
+
+	.maitraka {
+		width: 100%;
+	}
+
+
+	.chahamanas {
+		width: 100%;
+	}
+
+
+	.chalukya {
+		width: 100%;
+	}
+
+
+	.harsha {
+		width: 100%;
+	}
+
+
+	.gurjara {
+		width: 100%;
+	}
+
+
+	.rashtrakuta {
+		width: 100%;
+	}
+
+
+	.pala {
+		width: 100%;
+	}
+
+
+	.paramara {
+		width: 100%;
+	}
+
+
+	.hoysala {
+		width: 100%;
+	}
+
+}
