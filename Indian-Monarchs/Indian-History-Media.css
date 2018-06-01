@@ -1,10 +1,10 @@
 @media (max-width: 768px) {
 	body {
-		font-family: 'Courgette', cursive !important;
+		font-family: 'Courgette', cursive;
 	}
 
 	* {
-		font-family: 'Courgette', cursive !important;
+		font-family: 'Courgette', cursive;
 	}
 
 	header nav li {
