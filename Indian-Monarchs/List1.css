@@ -1,9 +1,9 @@
 body {
-	font-family: "Times New Roman", Times, serif;
+	font-family: cursive;
 }
 
 * {
-	font-family: "Times New Roman", Times, serif;
+	font-family: cursive;
 }
 
 header nav li {
@@ -18,13 +18,13 @@ header ul li a {
 
 
 #links {
-	font-family: "Times New Roman", Times, serif;
+	font-family: cursive;
 }
 
 
 .h1 {
 	text-align: center;
-	font-family: "Times New Roman", Times, serif;
+	font-family: cursive;
 }
 
 .container p {

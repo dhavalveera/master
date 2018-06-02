@@ -42,7 +42,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: cursive;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -164,6 +164,7 @@ a {
   color: #007bff;
   text-decoration: none;
   background-color: transparent;
+  font-family: cursive;
   -webkit-text-decoration-skip: objects;
 }
 
@@ -565,11 +566,27 @@ pre code {
   .container {
     max-width: 540px;
   }
+
+  body {
+    font-family: cursive;
+  }
+
+  * {
+    font-family: cursive;
+  }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+  }
+
+  body {
+    font-family: cursive;
+  }
+
+  * {
+    font-family: cursive;
   }
 }
 
@@ -577,11 +594,27 @@ pre code {
   .container {
     max-width: 960px;
   }
+
+  body {
+    font-family: cursive;
+  }
+
+  * {
+    font-family: cursive;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+
+  body {
+    font-family: cursive;
+  }
+
+  * {
+    font-family: cursive;
   }
 }
 
@@ -863,6 +896,15 @@ pre code {
 }
 
 @media (min-width: 576px) {
+
+  body {
+    font-family: cursive;
+  }
+
+  * {
+    font-family: cursive;
+  }
+
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1891,6 +1933,15 @@ pre code {
 }
 
 @media (max-width: 575.98px) {
+
+  body {
+    font-family: cursive;
+  }
+
+  * {
+    font-family: cursive;
+  }
+
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -1904,6 +1955,16 @@ pre code {
 }
 
 @media (max-width: 767.98px) {
+
+  body {
+    font-family: cursive;
+  }
+
+
+  * {
+    font-family: cursive;
+  }
+
   .table-responsive-md {
     display: block;
     width: 100%;
@@ -1917,6 +1978,15 @@ pre code {
 }
 
 @media (max-width: 991.98px) {
+
+  body {
+    font-family: cursive;
+  }
+
+  * {
+    font-family: cursive;
+  }
+
   .table-responsive-lg {
     display: block;
     width: 100%;
@@ -1930,6 +2000,15 @@ pre code {
 }
 
 @media (max-width: 1199.98px) {
+
+  body {
+    font-family: cursive;
+  }
+
+  * {
+    font-family: cursive;
+  }
+
   .table-responsive-xl {
     display: block;
     width: 100%;
