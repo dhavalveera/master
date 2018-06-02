@@ -13,9 +13,12 @@
 		width: 100%;
 	}
 
-
 	header nav img {
-		width: 75%;
+		width: 50%;
+	}
+
+	header ul li a {
+		text-align: center;
 	}
 
 	.h1, .h2, .h3 {
