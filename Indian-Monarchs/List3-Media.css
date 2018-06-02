@@ -1,11 +1,21 @@
 @media (max-width: 768px) {
 	body {
-		font-family: cursive !important;
+		font-family: 'Poiret One', cursive !important;
 	}
 
 	* {
-		font-family: cursive !important;
+		font-family: 'Poiret One', cursive !important;
 		width: 100%;
+	}
+
+
+	header nav li {
+		width: 100%;
+	}
+
+
+	header nav img {
+		width: 75%;
 	}
 
 	.h1, .h2, .h3 {

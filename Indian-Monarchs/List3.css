@@ -1,9 +1,9 @@
 body {
-	font-family: cursive !important;
+	font-family: 'Poiret One', cursive !important;
 }
 
 * {
-	font-family: cursive !important;
+	font-family: 'Poiret One', cursive !important;
 }
 
 
@@ -39,7 +39,6 @@ header ul li a {
 	text-align: center;
 	color: chocolate !important;
 }
-
 
 ol {
 	border: 1px solid;
