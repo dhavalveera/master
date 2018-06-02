@@ -1,20 +1,22 @@
 @media (max-width: 768px) {
 	body {
-		font-family: 'Courgette', cursive;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	* {
-		font-family: 'Courgette', cursive;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	header nav li {
-		margin: 25px;
-		font-size: .8em;
-		text-indent: 100px;
+		width: 100%;
 	}
 
 	header ul li a {
 		text-align: center;
+	}
+
+	.p {
+		width: 100%;
 	}
 
 

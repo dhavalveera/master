@@ -1,21 +1,21 @@
 @media (min-width: 568px) {
 	body {
-		font-family: cursive !important;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	* {
-		font-family: cursive !important;
+		font-family: "Times New Roman", Times, serif;
 	}
 }
 
 
 @media (max-width: 768px) {
 	body {
-		font-family: cursive !important;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	* {
-		font-family: cursive !important;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	header nav li {
@@ -28,7 +28,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		width: 100%;
-		font-family: cursive !important;
+		font-family: c"Times New Roman", Times, serif;
 	}
 
 	p {

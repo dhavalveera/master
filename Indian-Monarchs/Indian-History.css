@@ -1,11 +1,10 @@
 body {
-	font-family: 'Courgette', cursive;
+	font-family: "Times New Roman", Times, serif;
 }
 
 * {
-	font-family: 'Courgette', cursive;
+	font-family: "Times New Roman", Times, serif;
 }
-
 
 header nav li {
 	margin: 25px;
@@ -31,5 +30,5 @@ header ul li a {
 
 h4 {
 	text-align: center;
-	font-family: 'Courgette', cursive !important;
+	font-family: "Times New Roman", Times, serif;
 }
