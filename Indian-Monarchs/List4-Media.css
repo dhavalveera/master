@@ -13,7 +13,11 @@
 	}
 
 	header nav img {
-		width: 75%;
+		width: 50%;
+	}
+
+	.navbar-toggler:not(:disabled):not(.disabled) {
+		width: 50%;
 	}
 
 	.h1, .h3 {
