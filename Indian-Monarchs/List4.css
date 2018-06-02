@@ -1,15 +1,15 @@
 body {
-	font-family: cursive !important;
+	font-family: 'Poiret One', cursive !important;
 }
 
 * {
-	font-family: cursive !important;
+	font-family: 'Poiret One', cursive !important;
 }
 
 
 header nav li {
-	margin: 25px;
-	font-size: .9em;
+	margin: 23px;
+	font-size: 1.2em;
 	text-indent: 100px;
 }
 

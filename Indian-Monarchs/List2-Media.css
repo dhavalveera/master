@@ -1,11 +1,19 @@
 @media (max-width: 768px) {
 	body {
-		font-family: cursive !important;
+		font-family: 'Poiret One', cursive !important;
 	}
 
 	* {
-		font-family: cursive !important;
+		font-family: 'Poiret One', cursive !important;
 		width: 100%;
+	}
+
+	header nav li {
+		width: 100%;
+	}
+
+	header nav img {
+		width: 75%;
 	}
 
 	img {
@@ -13,9 +21,9 @@
 	}
 
 	.h1 {
-	text-align: center;
-	font-family: cursive !important;
-}
+		text-align: center;
+		font-family: 'Poiret One', cursive !important;
+	}
 
 	.container p {
 		width: 100%;
