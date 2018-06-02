@@ -22,13 +22,17 @@
 		width: 100%;
 	}
 
+	header nav img {
+		width: 50%;
+	}
+
 	header ul li a {
 		text-align: center;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		width: 100%;
-		font-family: c"Times New Roman", Times, serif;
+		font-family: "Times New Roman", Times, serif;
 	}
 
 	p {
