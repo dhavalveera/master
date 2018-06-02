@@ -1,21 +1,21 @@
 @media (min-width: 568px) {
 	body {
-		font-family: cursive !important;
+		font-family: 'Shadows Into Light', cursive;
 	}
 
 	* {
-		font-family: cursive !important;
+		font-family: 'Shadows Into Light', cursive;
 	}
 }
 
 
 @media (max-width: 768px) {
 	body {
-		font-family: cursive !important;
+		font-family: 'Shadows Into Light', cursive;
 	}
 
 	* {
-		font-family: cursive !important;
+		font-family: 'Shadows Into Light', cursive;
 	}
 
 	header nav li {
@@ -32,25 +32,25 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		width: 100%;
-		font-family: cursive !important;
+		font-family: 'Shadows Into Light', cursive;
 	}
 
 	body p {
-		font-family: cursive !important;
+		font-family: 'Shadows Into Light', cursive;
 	}
 
 	p {
 		width: 100%;
-		font-family: cursive !important;
+		font-family: 'Shadows Into Light', cursive;
 	}
 
 	.rulers {
-		font-family: cursive !important;
+		font-family: 'Shadows Into Light', cursive;
 	}
 
 
 	#kuru > p {
-		font-family: cursive !important;
+		font-family: 'Shadows Into Light', cursive;
 	}
 
 	img {
@@ -66,7 +66,7 @@
 .col-xl-auto {
   position: relative;
   width: 100%;
-  font-family: cursive !important;
+  font-family: 'Shadows Into Light', cursive;
   min-height: 1px;
   padding-right: 12px;
   padding-left: 12px;

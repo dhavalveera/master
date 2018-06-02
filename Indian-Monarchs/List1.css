@@ -1,9 +1,9 @@
 body {
-	font-family: cursive !important;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 * {
-	font-family: cursive !important;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 header nav li {
@@ -18,18 +18,18 @@ header ul li a {
 
 
 #links {
-	font-family: cursive !important;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 
 .h1 {
 	text-align: center;
-	font-family: cursive !important;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 .container p {
 	font-size: 1em;
-	font-family: cursive !important;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 
