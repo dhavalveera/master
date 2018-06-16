@@ -9,7 +9,7 @@ body {
 header {
 	color: yellow;
 	font-family: 'Bad Script', cursive;
-	background: url("Programming.jpg");
+	background: rgba(164, 252, 10,.3);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -45,7 +45,7 @@ header nav li {
 .type h2 {
 	position: absolute;
 	top: 63%;
-	left: 41%;
+	left: 45%;
 	font-weight: 7em;
 	text-align: center;
 	transform: translate(-50%, -50%;);
@@ -59,7 +59,7 @@ body h1 {
 }
 
 body #About {
-	background-image: url("about.jpg");
+	background: rgba(249, 59, 46, .3);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -76,13 +76,11 @@ body #About .container hr {
 body #About .container h1 {
 	color: white;
 	font-size: 5em;
-	background: rgba(0,0,0,.6);
 }
 
 #About p {
 	font-size: 2em;
-	color: chocolate;
-	background-color: rgba(0,0,0,.6);
+	color: red;
 	text-indent: 50px;
 }
 
@@ -95,11 +93,11 @@ figcaption {
 }
 
 body #Skills {
-	background-image: url("html5.jpg");
+	background: rgba(17, 254, 240, .5);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 190vh;
+	height: 150vh;
 }
 
 body main #Skills {
@@ -114,13 +112,13 @@ body #Skills .container > h1 {
 body #Skills .container hr {
 	border-top: 3px solid red;
 	width: 17%;
-	color: white;
+	color: red;
 	margin-bottom: 30px;
 }
 
 #Skills p {
 	font-size: 3em;
-	color: white;
+	color: red;
 	text-indent: 50px;
 }
 
@@ -145,12 +143,12 @@ body #Skills .skill-learning hr {
 
 body #Skills .skill-learning h2 {
 	font-size: 4em;
-	color: white;
+	color: red;
 }
 
 
 body #Projects {
-	background-image: url("css3.jpg");
+	background: rgba(0, 128, 255, .5);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -185,7 +183,6 @@ body #Projects h1 {
 	text-align: center;
 	font-size: 4em;
 	color: white;
-	background-color: rgba(0,0,0,.6);
 }
 
 
@@ -193,12 +190,11 @@ body #Projects h1 {
 	font-size: 3em;
 	text-align: center;
 	color: white;
-	background-color: rgba(0,0,0,.6);
 }
 
 
 body .hire {
-	background: url("contact-us-banner.jpg");
+	background: rgba(208, 46, 252, .5);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -226,7 +222,7 @@ body .hire {
 
 
 body #Contact {
-	background-image: url("bootstrap.jpg");
+	background: rgba(252, 7, 22, .5);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;

@@ -24,7 +24,7 @@
 	}
 
 	body #About {
-		background-image: url("about.jpg");
+		background: rgba(249, 59, 46, .3);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -32,11 +32,11 @@
 	}
 
 	body #Skills {
-		background: url("html5.jpg");
+		background: rgba(17, 254, 240, .5);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 430vh;
+		height: 330vh;
 	}
 
 	body #Skills .skill-learning h2 {
@@ -46,7 +46,7 @@
 	}
 
 	body #Projects {
-		background: url("css3.jpg");
+		background: rgba(0, 128, 255, .5);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -63,7 +63,7 @@
 	}
 
 	body .hire {
-		background: url("contact-us-banner.jpg");
+		background: rgba(208, 46, 252, .5);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -71,7 +71,7 @@
 	}
 
 	body #Contact {
-		background: url("bootstrap.jpg");
+		background: rgba(252, 7, 22, .5);
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
