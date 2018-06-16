@@ -68,7 +68,7 @@ body #About {
 
 body #About .container hr {
 	border-top: 3px solid #222;
-	width: 27%;
+	width: 25%;
 	color: white;
 	margin-bottom: 30px;
 }
@@ -111,7 +111,7 @@ body #Skills .container > h1 {
 
 body #Skills .container hr {
 	border-top: 3px solid red;
-	width: 17%;
+	width: 15%;
 	color: red;
 	margin-bottom: 30px;
 }
@@ -135,7 +135,7 @@ progress {
 
 body #Skills .skill-learning hr {
 	border-top: 3px solid purple;
-	width: 45%;
+	width: 28%;
 	color: white;
 	margin-bottom: 30px;
 }
@@ -237,7 +237,7 @@ body #Contact .container h1 {
 
 body #Contact .container hr {
 	border-top: 3px solid white;
-	width: 40%;
+	width: 44%;
 	color: white;
 	margin-bottom: 30px;
 }
