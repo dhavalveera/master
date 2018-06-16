@@ -14,11 +14,8 @@ article a {
 }
 
 div img {
-	width: 300px;
+	width: 400px;
 	height: 300px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 
@@ -35,4 +32,19 @@ h2 {
 
 p {
 	text-align: center;
+}
+
+.card-title {
+	text-align: center;
+	font-size: 2em;
+}
+
+.card-text {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#footer-logo img {
+	width: 32px;
+	height: 32px;
 }
