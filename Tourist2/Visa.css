@@ -1,0 +1,79 @@
+header nav li a {
+	margin: 20px;
+	font-size: 18px;
+}
+
+div .banner {
+	width: 100%;
+	height: 200px;
+}
+
+
+.aside {
+	border: 1px solid;
+}
+
+.p1 {
+	background: grey;
+	color: lime;
+	border: 1px solid;
+	text-transform: uppercase;
+	font-size: 2em;
+	margin: 5px;
+	text-indent: 5%;	
+}
+
+
+.p2 {
+	text-indent: 10%;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+abbr {
+	border-bottom: none !important;
+	text-decoration: none !important;
+	cursor: default;
+}
+
+
+.h3 {
+	text-align: center;
+	color: red !important;
+	font-size: 4em !important;
+}
+
+
+.p3 {
+	text-indent: 10%;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+
+.p4 {
+	text-indent: 10%;
+	text-align: center;
+	font-size: 2em;
+	color: red;
+	font-weight: bolder;
+}
+
+.p5 {
+	text-indent: 8%;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+
+.h1 {
+	text-align: center;
+	color: green !important;
+	font-size: 4em !important;
+}
+
+
+address {
+	text-align: center;
+	font-size: 1.2em !important;
+}
