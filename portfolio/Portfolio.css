@@ -155,7 +155,7 @@ body #Projects {
 	height: 300vh;
 }
 
-iframe {
+.container-fluid iframe {
 	width: 500px;
 	height: 500px;
 }
