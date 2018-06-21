@@ -152,9 +152,13 @@ body #Projects {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 290vh;
+	height: 300vh;
 }
 
+iframe {
+	width: 500px;
+	height: 500px;
+}
 
 body #Projects hr {
 	border-top: 3px solid chocolate;

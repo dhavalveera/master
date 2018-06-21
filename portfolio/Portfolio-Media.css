@@ -50,9 +50,13 @@
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 530vh;
+		height: 540vh;
 	}
 
+	.container-fluid iframe {
+		width: 300px;
+		height: 350px;
+	}
 
 	#i {
 		display: none;
