@@ -1,0 +1,13 @@
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -200px 0 0 -325px;
+}
+
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
