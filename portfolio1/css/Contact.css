@@ -1,10 +1,10 @@
 body{
-	font-family: 'Bad Script', cursive !important;
+	font-family: 'Merienda', cursive !important;
 }
 
 header nav li {
-	font-size: 1.5em;
-	text-indent: 125px;
+	font-size: 1em;
+	text-indent: 120px;
 }
 
 header ul li a {
@@ -21,14 +21,14 @@ header ul li a {
 
 .p {
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 
 button a {
 	color: red;
 	text-decoration: none;
-	font-size: 1.7em;
+	font-size: 1.3em;
 }
 
 button a:hover {
