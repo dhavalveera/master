@@ -1,10 +1,10 @@
 body{
-	font-family: 'Bad Script', cursive !important;
+	font-family: 'Merienda', cursive !important;
 }
 
 header nav li {
-	font-size: 1.5em;
-	text-indent: 125px;
+	font-size: 1em;
+	text-indent: 120px;
 }
 
 header ul li a {
@@ -28,13 +28,13 @@ header ul li a {
 
 
 .p {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 
 #main p {
 	color: rgb(0,0,0);
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 
@@ -44,7 +44,7 @@ article h1 {
 }
 
 #carousel {
-	font-size: 1.3em;
+	font-size: 1em;
 }
 
 
