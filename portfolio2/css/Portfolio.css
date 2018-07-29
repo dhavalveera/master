@@ -1,0 +1,105 @@
+body {
+	font-family: 'Merienda', cursive !important;
+}
+
+header nav li {
+	font-size: 1em;
+	text-indent: 20px;
+}
+
+header ul li a {
+	text-align: center;
+}
+
+
+#navimg1 {
+	display: none;
+}
+
+#apple {
+	background-image: url("file:///C:/Users/Dhaval%20H%20Vira/Desktop/Coursera%20Learning/Portfolio%20New%201/images/apple-mac-new.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-size: cover;
+}
+
+
+#apple h1 {
+	color: white;
+}
+
+
+#apple h2 {
+	color: white;
+}
+
+#apple p {
+	color: white;
+	background: rgba(0,0,0,.2);
+}
+
+
+aside ul {
+	list-style-type: none;
+}
+
+
+aside ul li {
+	display: inline-block;
+	margin: 25px;
+}
+
+
+aside ul li:nth-child(1) {
+	border: 1px solid purple;
+	padding: 10px;
+	background-color: rgba(0,0,0,.4);
+}
+
+aside ul li:nth-child(2) {
+	border: 1px solid purple;
+	padding: 10px;
+	background-color: rgba(0,0,0,.4);
+}
+
+aside ul li:nth-child(3) {
+	border: 1px solid purple;
+	padding: 10px;
+	background-color: rgba(0,0,0,.4);
+}
+
+aside ul li:nth-child(4) {
+	border: 1px solid purple;
+	padding: 10px;
+	background-color: rgba(0,0,0,.4);
+}
+
+.service {
+	background: rgb(255, 165, 0);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.contact {
+	background: rgb(211, 211, 211);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+#contact1 {
+	text-decoration: none;
+}
+
+
+#contactus li {
+	list-style-type: none;
+}
+
+
+#contactus li {
+	display: inline-block;
+	margin: 15px;
+}
