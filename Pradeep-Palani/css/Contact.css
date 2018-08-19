@@ -28,7 +28,7 @@ header ul li a {
 
 
 article #contactimg {
-	background: url("https://dhavalveera.github.io/master/Pradeep-Palani/images/wood.jpg");
+	background: linear-gradient(to bottom, purple, chocolate, green, red, navy);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
