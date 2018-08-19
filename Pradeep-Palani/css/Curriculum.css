@@ -1,0 +1,163 @@
+body {
+	font-family: 'Merienda', cursive !important;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+img {
+	pointer-events: none;
+}
+
+header nav li {
+	font-size: 1em;
+	text-indent: 20px;
+}
+
+header ul li a {
+	text-align: center;
+}
+
+
+#navimg {
+	height: 75px;
+	width: auto;
+}
+
+
+#styleh5 {
+	background-color: aliceblue;
+	border-radius: 50% 20% / 10% 40%; 
+}
+
+
+#curriculum {
+	padding: 10px;
+	border-radius: 50% 20% / 10% 40%;
+}
+
+
+#curriculum1 {
+	background: aqua;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.curriculum {
+	padding: 10;
+	background-color: darkkhaki;
+	border-radius: 50% 30% / 20% 60%;
+}
+
+
+
+.style18 {
+	height: 30px;
+	border-style: solid;
+	border-color: #8c8b8b;
+	border-width: 1px 0 0 0;
+	border-radius: 20px;
+}
+
+
+.style18:before {
+	display: block;
+	content: "";
+	height: 30px;
+	margin-top: -31px;
+	border-style: solid;
+	border-color: #8c8b8b;
+	border-width: 0 0 1px 0;
+	border-radius: 20px;
+}
+
+
+#add {
+	border-right: 1px solid white;
+}
+
+
+#add1 {
+	border-right: 1px solid white;
+}
+
+.contact1 {
+	background-image: linear-gradient(to right, #FAFAD2, blue, lightgreen, #FAFAD2);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+
+.style-7 {
+	padding: 0;
+	border: none;
+	border-top: medium double #333;
+	color: #333;
+	text-align: center;
+}
+
+
+.style-7:after {
+	content: "§";
+	display: inline-block;
+	position: relative;
+	top: -0.7em;
+	font-size: 1.5em;
+	padding: 0 0.25em;
+	background: white;
+}
+
+
+#hyperlink a {
+	color: black;
+}
+
+
+#hyperlink a:hover {
+	text-decoration-line: none;
+}
+
+
+ol {
+	list-style-type: none;
+}
+
+
+li {
+	display: inline-block;
+}
+
+
+ol li a img {
+	background-color: white;
+	border-radius: 50% 20% / 10% 40%;
+	padding: 5px;
+}
+
+
+ol li a img:hover {
+	background-color: purple;
+}
+
+
+#web p {
+	color: #FAFAD2;
+}
+
+
+#web a {
+	color: #FAFAD2;
+}
+
+
+#web a:hover {
+	color: red;
+	background: #FAFAE0;
+}
