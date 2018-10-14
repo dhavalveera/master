@@ -36,7 +36,7 @@
 <body onload="myFunction()" style="margin:0;">
 
 <div id="loader">
-  <img src="Logos/Logo 5.jpg">
+  <img src="Logos/Logo 9.jpg">
 </div>
 
 <div style="display:none;" id="myDiv" class="animate-bottom">
@@ -47,7 +47,7 @@
 
       
       <nav class="navbar navbar-expand-lg navbar-light" style="background: white;">
-        <a href="Home.html"><img class="img-fluid text-left" id="navimg" src="Logos/Logo 5.jpg" alt="Kidz R Us"></a>
+        <a href="Home.html"><img class="img-fluid text-left" id="navimg" src="Logos/Logo 9.jpg" alt="Kidz R Us"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -102,28 +102,52 @@
 <hr class="style18">
 <br>
 
-    <article>
-      <div class="container container-fluid">
-        <div class="clearfix row text-center">
-          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-            <br><img class="img-fluid" src="images/location.jpg" alt="Address of Kidz R Us" style="display: inline-block;">&nbsp; <h3 style="display: inline-block;"> Corporate Office </h3><br>
+
+  <article style="background: url(images/wood.jpg);"><br><br><br><br>
+    <div class="container container-fluid">
+      <div class="clearfix row text-center">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <form name="Contact" method="post" action="php-form/contactus.php">
+            <div class="input-group">
+              <label for="first_name">First Name *</label>&nbsp;
+              &nbsp;<input type="text" name="first_name" maxlength="30" required>
+            </div><br>
+            <div class="input-group">
+              <label for="last_name">Last Name *</label>&nbsp;
+              &nbsp;<input type="text" name="last_name" maxlength="30" required>
+            </div><br>
+            <div class="input-group">
+              <label for="email">Email ID *</label>&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;<input type="text" name="email" maxlength="50" required>
+            </div><br>
+            <div class="input-group">
+              <label for="telephone">Number</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;<input type="text" name="telephone" maxlength="12" >
+            </div><br>
+            <div class="input-group">
+              <label for="comments">Message *</label>&nbsp;&nbsp;&nbsp;
+              &nbsp;<textarea name="comments" cols="30" rows="10" required></textarea>
+            </div><br>
+              <input type="submit" value="Submit">
+          </form>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+          <img class="img-fluid" src="images/location.jpg" alt="Address of Kidz R Us">&nbsp; <h4 style="display: inline-block;"> Corporate Office </h4><br>
             &nbsp;&nbsp; <h5> Kidz R Us Preschool </h5>
             <address> XYZ Building, Ground Floor,<br>
             &nbsp;&nbsp; XYZ Area, XYZ Locality, <br>
             &nbsp;&nbsp; District, City <br>
             &nbsp;&nbsp; State, India </address>
-          </div>
-          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-            <br><img class="img-fluid" src="images/email.jpg" alt="Email ID of Kidz R Us" style="display: inline-block;">&nbsp; <h3 style="display: inline-block;"> Email </h3><br><br>
+        <hr class="style18">
+          <img class="img-fluid" src="images/email.jpg" alt="Email ID of Kidz R Us">&nbsp; <h4 style="display: inline-block;"> Email </h4><br><br>
             <p class="text-center"><a href="mailto:info@kidzrus.co.in">info@kidzrus.co.in</a></p>
-          </div>
-          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-            <br><img class="img-fluid" src="images/phone.jpg" alt="Phone Number of Kidz R Us" style="display: inline-block;">&nbsp; <h3 style="display: inline-block;"> Phone </h3><br><br>
+        <hr class="style18">
+          <img class="img-fluid" src="images/phone.jpg" alt="Phone Number of Kidz R Us">&nbsp; <h4 style="display: inline-block;"> Phone </h4><br><br>
             <p><a href="tel: +91123456789">(+91) 123 456 789</a></p>
-          </div>
         </div>
       </div>
-    </article>
+    </div><br><br><br>
+  </article>
 
 
 
