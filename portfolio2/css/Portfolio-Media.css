@@ -32,7 +32,7 @@
 	}
 
 	#apple {
-		background-image: url("file:///C:/Users/Dhaval%20H%20Vira/Desktop/Coursera%20Learning/Portfolio%20New%201/images/iPhone.jpg");
+		background: url("../images/iPhone.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
@@ -52,7 +52,7 @@
 
 	#apple p {
 		color: navy;
-		background: rgba(0,0,0,.0);
+		background: rgba(255,255,255,.4);
 		text-align: center;
 		text-indent: 8%;
 	}
