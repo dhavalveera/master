@@ -1,0 +1,138 @@
+body {
+	font-family: 'Merienda', cursive !important;
+}
+
+header nav li {
+	font-size: 1em;
+	text-indent: 20px;
+}
+
+header ul li a {
+	text-align: center;
+}
+
+
+#navimg1 {
+	display: none;
+}
+
+
+#carouselExampleIndicators h5 {
+	color: red;
+}
+
+#carouselExampleIndicators p {
+	color: navy;
+}
+
+
+#about-tag h2 {
+	text-decoration-line: underline;
+}
+
+
+.justaboveservice1 {
+	background-image: url("../images/about.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.justaboveservice1 h2, p {
+	color: green;
+}
+
+
+.service h2 {
+	text-decoration-line: underline;
+}
+
+
+#service p {
+	color: black;
+}
+
+/* Works */
+
+.work h2 {
+	text-decoration-line: underline;
+}
+
+.work p {
+	color: black;
+}
+
+
+#worka:hover {
+	text-decoration-line: none;
+}
+
+
+#work1 #col-sm-4 {
+	padding: 2px;
+}
+
+/* Clients */
+
+.jumbotron1 {
+	padding: 2rem 1rem;
+  	margin-bottom: 2rem;
+  	background-color: #C6F7F8;
+  	border-radius: 0.3rem;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+
+/* Team */
+
+#team {
+	background-image: url("../images/team.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#team h2 {
+	text-decoration-line: underline;
+	color: yellow;
+}
+
+#team p {
+	color: yellow;
+}
+
+
+#team1 {
+	border-radius: 50% 20% / 10% 40%;
+}
+
+#team h4 {
+	color: navy;
+}
+
+/* Contact Us */
+
+#contact h2 {
+	text-decoration-line: underline;
+}
+
+
+#contact {
+	background-image: url("../images/contact.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+#contactus li {
+	list-style-type: none;
+}
+
+
+#contactus li {
+	display: inline-block;
+	margin: 15px;
+}
