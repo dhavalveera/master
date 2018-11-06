@@ -136,3 +136,11 @@ header ul li a {
 	display: inline-block;
 	margin: 15px;
 }
+
+
+#copyright {
+	background-color: lightblue;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
