@@ -1,7 +1,7 @@
 /* Center the loader */
 #loader {
   position: absolute;
-  left: 59%;
+  left: 61%;
   top: 50%;
   margin: -200px 0 0 -325px;
 }
