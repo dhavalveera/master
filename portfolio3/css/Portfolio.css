@@ -33,6 +33,16 @@ header ul li a {
 	color: black;
 }
 
+/* About Us */
+
+
+#about {
+	background-image: url("../images/plain.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 #about-tag h2 {
 	text-decoration-line: underline;
 }

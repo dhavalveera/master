@@ -31,4 +31,61 @@
 		width: 72%
 	}
 
+
+	#about {
+		background-image: url("../images/plain.jpg");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+
+	.topcarousel1 {
+		background-color: lightgrey;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.justaboveservice1 {
+		background-image: url("../images/laptop.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+
+	.jumbotron1 {
+		padding: 2rem 1rem;
+	  	margin-bottom: 2rem;
+	  	background-color: #C6F7F8;
+	  	border-radius: 0.3rem;
+	  	background-attachment: fixed;
+	  	background-size: cover;
+	}
+
+
+	#team {
+		background-image: url("../images/team.jpg");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+
+	#contact {
+		background-image: url("../images/contact.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+
+	#copyright {
+		background-color: lightblue;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
 }
