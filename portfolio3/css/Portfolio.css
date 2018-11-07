@@ -17,19 +17,30 @@ header ul li a {
 }
 
 
-#carouselExampleIndicators h5 {
-	color: yellow;
+.topcarousel1 {
+	background-color: lightgrey;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-#carouselExampleIndicators p {
-	color: navy;
+
+.carousel-item h2 {
+	color: red;
 }
 
+.carousel-item p {
+	color: black;
+}
 
 #about-tag h2 {
 	text-decoration-line: underline;
 }
 
+
+#about p {
+	color: black;
+}
 
 .justaboveservice1 {
 	background-image: url("../images/laptop.jpg");
@@ -126,6 +137,10 @@ header ul li a {
 	background-size: cover;
 }
 
+
+#contact p {
+	color: black;
+}
 
 #copyright {
 	background-color: lightblue;
