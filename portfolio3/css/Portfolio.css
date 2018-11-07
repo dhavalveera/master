@@ -18,7 +18,7 @@ header ul li a {
 
 
 #carouselExampleIndicators h5 {
-	color: red;
+	color: yellow;
 }
 
 #carouselExampleIndicators p {
@@ -32,7 +32,7 @@ header ul li a {
 
 
 .justaboveservice1 {
-	background-image: url("../images/about.jpg");
+	background-image: url("../images/laptop.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -40,7 +40,7 @@ header ul li a {
 
 
 .justaboveservice1 h2, p {
-	color: green;
+	color: rgb(255,255,255);
 }
 
 
@@ -124,17 +124,6 @@ header ul li a {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-}
-
-
-#contactus li {
-	list-style-type: none;
-}
-
-
-#contactus li {
-	display: inline-block;
-	margin: 15px;
 }
 
 
