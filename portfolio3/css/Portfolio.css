@@ -97,12 +97,21 @@ header ul li a {
 /* Clients */
 
 .jumbotron1 {
-	padding: 2rem 1rem;
-  	margin-bottom: 2rem;
-  	background-color: #C6F7F8;
-  	border-radius: 0.3rem;
+  	background-image: url("../images/Clients.jpg");
   	background-attachment: fixed;
+  	background-repeat: no-repeat;
   	background-size: cover;
+}
+
+
+#client h2 {
+	text-decoration-line: underline;
+	color: rgb(255,255,255);
+}
+
+
+#client p {
+	color: rgb(255,255,255);
 }
 
 
