@@ -37,7 +37,7 @@ header ul li a {
 
 
 #about {
-	background-image: url("../images/plain.jpg");
+	background-color: rgba(102, 179, 255, .2);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -97,7 +97,7 @@ header ul li a {
 /* Clients */
 
 .jumbotron1 {
-  	background-image: url("../images/Clients.jpg");
+  	background-color: rgba(255,255,255,.9);
   	background-attachment: fixed;
   	background-repeat: no-repeat;
   	background-size: cover;
@@ -106,12 +106,12 @@ header ul li a {
 
 #client h2 {
 	text-decoration-line: underline;
-	color: rgb(255,255,255);
+	color: red;
 }
 
 
 #client p {
-	color: rgb(255,255,255);
+	color: purple;
 }
 
 
