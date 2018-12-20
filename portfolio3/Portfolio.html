@@ -401,44 +401,46 @@
 		</div>
 		<div class="clearfix row text-center">
 			<div class="col-sm-1 col-md-1 col-lg-1 col-xl-1">
-				
 			</div>
 			<div class="col-sm-7 col-md-7 col-lg-7 col-xl-7">
-				<form name="Contact" method="post" action="php-form/contactus.php">
-            		<div class="input-group">
-              			<label for="first_name">First Name *</label>&nbsp;
-              			&nbsp;<input type="text" name="first_name" maxlength="30" required>
-           			</div><br>
-            		<div class="input-group">
-				        <label for="last_name">Last Name *</label>&nbsp;
-				        &nbsp;<input type="text" name="last_name" maxlength="30" required>
-            		</div><br>
-            		<div class="input-group">
-				        <label for="email">Email ID *</label>&nbsp;&nbsp;&nbsp;&nbsp;
-				        &nbsp;<input type="email" name="email" maxlength="50" required>
-				    </div><br>
-				    <div class="input-group">
-					    <label for="telephone">Number</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					    &nbsp;<input type="number" name="telephone" maxlength="12" >
-				    </div><br>
-				    <div class="input-group">
-				    	<label for="enquiry">Nature of your Inquiry</label>&nbsp;&nbsp;&nbsp;
-				    	<select>
-				    		<option disabled="disabled" selected="selected"> Select </option>
-				    		<option value="Website Design & Development"> Website Design & Development </option>
-				    		<option value="Application Development"> Application Development </option>
-				    		<option value="eCommerce"> eCommerce </option>
-				    		<option value="Custom Domain"> Custom Domain </option>
-				    		<option value="Hosting"> Hosting </option>
-				    		<option value="Blog"> Blog </option>
-				    	</select>
-				    </div><br>
-				    <div class="input-group">
-					    <label for="comments">Message *</label>&nbsp;&nbsp;&nbsp;
-					    &nbsp;<textarea name="comments" cols="30" rows="10" required></textarea>
-            		</div><br>
-              			<input type="submit" value="Submit">
-          		</form><br><br>
+				<form action="php-form/mail.php" method="POST">
+					<p>Name: <input type="text" name="name" required></p><br>
+					<p>Email: <input type="text" name="email" required></p>
+					<p>Phone: <input type="text" name="phone"></p><br>
+
+					<p>Request Phone Call:<br>
+					Yes:&nbsp;<input type="checkbox" value="Yes" name="call"><br>
+					No:&nbsp;<input type="checkbox" value="No" name="call"></p><br><br>
+
+
+
+					<p>Priority: 
+					<select name="priority" size="1">
+					<option value="Low">Low</option>
+					<option value="Normal">Normal</option>
+					<option value="High">High</option>
+					<option value="Emergency">Emergency</option>
+					</select></p>
+					<br><br>
+
+					<p>Type: 
+					<select name="type" size="1">
+					<option value="Website Design">Website Design </option>
+					<option value="Website Development">Website Development</option>
+					<option value="WordPress Website">WordPress Website</option>
+					<option value="eCommerce">eCommerce</option>
+					<option value="Applications Development">Application Development</option>
+					<option value="Information Change">Information Change</option>
+					<option value="Custom Domain">Custom Domain</option>
+					<option value="Hosting">Web Hosting</option>
+					<option value="Custom Email">Custom Email ID</option>
+					<option value="Blog">Blog</option>
+					</select></p>
+					<br><br>
+
+					<p>Message: <textarea name="message" rows="6" cols="25"></textarea></p><br><br><br>
+					<input type="submit" value="Send">&nbsp;&nbsp;&nbsp;<input type="reset" value="Clear">
+				</form><br><br>
 			</div>
 			<div class="col-sm-1 col-md-1 col-lg-1 col-xl-1">
 				
