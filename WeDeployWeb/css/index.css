@@ -1,0 +1,24 @@
+body {
+	font-family:  'Merriweather', serif;
+	width: 100%;
+}
+
+
+.navbar-nav a {
+	font-family:  'Merriweather', serif;
+}
+
+
+#navimg {
+	display: inline-block;
+}
+
+
+#navimg1 {
+	display: none;
+}
+
+
+#header1 {
+	background: linear-gradient(to right, rgb(128,0,128) 35%, gold);
+}
