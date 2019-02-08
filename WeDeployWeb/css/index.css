@@ -1,0 +1,280 @@
+body {
+	font-family: 'Merriweather', serif;
+	width: 100%;
+}
+
+/* Header Section */
+.navbar-nav a {
+	font-family: 'Merriweather', serif;
+	margin: 15px;
+}
+
+#header1 {
+	background: linear-gradient(to right, rgb(128,0,128) 35%, gold);
+}
+
+#navimg1 {
+	display: none;
+}
+
+/* Header 2 Section */
+
+
+#aboutimg {
+	width: 100%;
+	border-top-left-radius: 200% 500%;
+}
+
+
+#about button a {
+	text-decoration-line: none;
+	color: rgb(255,255,255);
+}
+
+
+/* Our Services */
+
+#service img {
+	border-radius: 50%;
+}
+
+
+#serviceimg {
+	width: 82%;
+}
+
+
+#serviceimg1 {
+	width: 75%;
+}
+
+
+#serviceimg2 {
+	width: 80%;
+}
+
+
+#serviceimg3 {
+	width: 67%;
+}
+
+
+/* How we Work */
+
+#work {
+	background-color: lightgrey;
+}
+
+#work span {
+	color: red;
+	size: 50% !important;
+}
+
+#workp {
+	font-size: 18px;
+}
+
+
+#workp1 {
+	border: 2px solid rgb(0,0,0);
+	display: inline-block;
+	padding: 25px;
+	margin: 15px;
+	text-transform: uppercase;
+}
+
+
+#workp1:hover {
+	background-color: red;
+	transition: 3s;
+}
+
+#workp2 {
+	border: 2px solid rgb(0,0,0);
+	display: inline-block;
+	padding: 25px;
+	margin: 15px;
+	text-transform: uppercase;
+}
+
+#workp2:hover {
+	background-color: red;
+	transition: 3s;
+}
+
+#workp3 {
+	border: 2px solid rgb(0,0,0);
+	display: inline-block;
+	padding: 25px;
+	margin: 15px;
+	text-transform: uppercase;
+}
+
+
+#workp3:hover {
+	background-color: red;
+	transition: 3s;
+}
+
+#workp4 {
+	border: 2px solid rgb(0,0,0);
+	display: inline-block;
+	padding: 25px;
+	margin: 15px;
+	text-transform: uppercase;
+}
+
+
+#workp4:hover {
+	background-color: red;
+	transition: 3s;
+}
+
+
+#workp5 {
+	border: 2px solid rgb(0,0,0);
+	display: inline-block;
+	padding: 25px;
+	margin: 15px;
+	text-transform: uppercase;
+}
+
+
+#workp5:hover {
+	background-color: red;
+	transition: 3s;
+}
+
+
+#workp6 {
+	border: 2px solid rgb(0,0,0);
+	display: inline-block;
+	padding: 25px;
+	margin: 15px;
+	text-transform: uppercase;
+}
+
+
+#workp6:hover {
+	background-color: red;
+	transition: 3s;
+}
+
+
+/* Project Sections */
+
+.row {
+	margin: 10px -16px;
+}
+
+.row, .row > .column {
+	padding: 8px;
+}
+
+
+.column {
+	float: left;
+	width: 33.33%;
+	display: none;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.content {
+	background-color: rgb(255,255,255);
+	padding: 10px;
+}
+
+.show {
+	display: block;
+}
+
+
+.btn {
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	cursor: pointer;
+}
+
+
+.btn:active{
+	background-color: #666;
+	color: rgb(255,255,255);
+}
+
+
+/* Our Team */
+
+
+#team img {
+	border-radius: 50% 25% / 40% 30%;
+}
+
+
+#team button a {
+	text-decoration: none;
+	color: red;
+}
+
+
+/* Our Advantages */
+
+
+#advantages {
+	background-image: url("../images/advantages.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+}
+
+
+#advantages1 h1 {
+	color: red;
+}
+
+
+#advantages2 {
+	border: 1px solid black;
+	border-radius: 25%;
+	background-color: silver;
+}
+
+
+#advantages2:hover {
+	background-color: #1cd8c9;
+	transition: 3s;
+}
+
+
+/* Total Projects */
+
+
+#totalproject {
+	background-color: lightgrey;
+}
+
+
+/* Testimonial */
+
+
+#testimonial {
+	background-image: url("../images/testimonial.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* Footer */
+
+
+footer {
+	background-color: silver;
+}

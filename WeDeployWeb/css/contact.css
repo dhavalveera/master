@@ -1,0 +1,78 @@
+body {
+	font-family: 'Merriweather', serif;
+}
+
+
+a {
+	font-family: 'Merriweather', serif;
+}
+
+/* Header Section */
+
+#header1 {
+	background: linear-gradient(to right, rgb(128,0,128) 35%, gold);
+}
+
+#header1 p {
+	color: rgb(0,0,0);
+}
+
+#header2 i {
+	color: rgb(0,0,0);
+}
+
+#header2 a {
+	color: rgb(0,0,0);
+}
+
+#header2 i:hover {
+	color: red;
+	transition: 3s;
+}
+
+#header2 a:hover {
+	text-decoration-line: none;
+	color: red;
+	transition: 3s;
+}
+
+#header1 .nav-link {
+	color: red;
+}
+
+
+#navimg1 {
+	display: none;
+}
+
+
+/* Contact Us */
+
+
+#contactus a:hover {
+	text-decoration: none;
+}
+
+
+
+/* Footer */
+
+
+footer {
+	background-color: silver;
+}
+
+
+footer button a {
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+
+footer button a:hover {
+	text-decoration: none;
+}
+
+#footerh3 {
+	color: gold;
+}

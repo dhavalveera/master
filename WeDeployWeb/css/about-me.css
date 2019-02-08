@@ -1,0 +1,65 @@
+body {
+	font-family: 'Merriweather', serif;
+	width: 100%;
+}
+
+/* Header Section */
+.navbar-nav a {
+	font-family: 'Merriweather', serif;
+	margin: 15px;
+}
+
+#header1 {
+	background: linear-gradient(to right, rgb(128,0,128) 35%, gold);
+}
+
+#navimg1 {
+	display: none;
+}
+
+/* Header 2 */
+
+#header2 p a:hover {
+	text-decoration: none;
+}
+
+
+/* About Me */
+
+
+#articleabout img {
+	border-radius: 50% 10% / 60% 20%;
+	width: 100%;
+}
+
+
+#articleabout a:hover {
+	text-decoration: none;
+}
+
+
+#articleabout ul li {
+	list-style-type: none;
+}
+
+/* Footer */
+
+
+footer {
+	background-color: silver;
+}
+
+
+footer button a {
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+
+footer button a:hover {
+	text-decoration: none;
+}
+
+#footerh3 {
+	color: gold;
+}

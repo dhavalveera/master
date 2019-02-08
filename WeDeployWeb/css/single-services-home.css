@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+
+	body {
+		font-family: 'Merriweather', serif;
+		width: 100%;
+	}
+
+	header nav li {
+		width: 100%;
+	}
+
+	header ul li a {
+		text-align: center;
+	}
+
+
+	#navimg {
+		display: none;
+	}
+
+
+	#navimg1 {
+		display: block;
+	}
+
+	
+	#header1 .nav-link {
+	color: red;
+	}
+
+}
