@@ -15,6 +15,11 @@ body {
 	display: none;
 }
 
+
+body a:hover {
+	text-decoration: none;
+}
+
 /* Header 2 */
 
 .box {

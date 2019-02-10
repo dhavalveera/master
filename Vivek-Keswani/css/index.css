@@ -21,3 +21,8 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
+
+
+body a:hover {
+	text-decoration: none;
+}
